@@ -426,3 +426,45 @@ textarea {
 a{
   text-decoration: none;
 }
+ul{
+  list-style: none;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('https://at.alicdn.com/t/font_1472379618_3681047.eot'); /* IE9*/
+  src: url('https://at.alicdn.com/t/font_1472379618_3681047.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('https://at.alicdn.com/t/font_1472379618_3681047.woff') format('woff'), /* chrome、firefox */
+  url('https://at.alicdn.com/t/font_1472379618_3681047.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('https://at.alicdn.com/t/font_1472379618_3681047.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont{
+  font-family: "iconfont";
+  font-style: normal;
+}
+
+
+p,h1,h2,h3,h4,h5,h6{
+  margin: 0;
+}
+em,span{
+  font-style: normal;
+}
+
+
+
+.content{
+  margin-bottom: 60px;
+}
+
+.b-line{
+  background-color: #333;
+  width: 3.6rem;
+  height: 2px;
+}
+.l-line{
+  background-color: #333;
+  width: 3.6rem;
+  height: 1px;
+}

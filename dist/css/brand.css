@@ -1,0 +1,32 @@
+
+
+.title{
+	margin:0 auto;
+	width: 3.6rem;
+	text-align: center;
+	margin-top: 20px;
+}
+.title .b-line{
+	margin-top: 6px;
+	margin-bottom: 2px;
+}
+.c-content{
+	position: relative;
+	display: -moz-box;
+	display: -o-box;
+	display: -webkit-box;
+	display: box;
+	margin-left: 1rem;
+	margin-top: 1.2rem;
+}
+.c-content a{
+	display: inline-block;
+	width: 7rem;
+	height: 4rem;
+	margin-bottom: 0.5rem;
+	background-color: #999;
+	color: #fff;
+	-moz-box-flex:1;
+	-o-box-flex:1;
+	-webkit-box-flex: 1;
+}

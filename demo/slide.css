@@ -1,9 +1,17 @@
-.slide{
+html,body{
 	width: 100%;
-	height: 8rem;
-	margin-top: 46px;
-	position: relative;
-	overflow: hidden;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    font-family: Arial;
+}
+body{
+	height: 100%;
+}
+.slide{
+	height: 100%;
 }
 .viewport{
 	width: 400%;
@@ -13,7 +21,7 @@
 	display: -webkit-box;
 	display: box;
 	overflow: hidden;
-	/*pointer-events: none; È¥µôÕâ¾ä»°*/
+	/*pointer-events: none; ȥ����仰*/
 	-webkit-transform:translate3d(0,0,0);
 	backface-visibility: hidden;
 	position: relative;
@@ -23,16 +31,6 @@
 	-o-box-flex:1;
 	-webkit-box-flex: 1;
 	width: 0;
-	height: 100%;
-}
-.pageview a{
-	width: 100%;
-	height: 100%;
-	display: inline-block;
-}
-.pageview img{
-	width: 100%;
-	height: 100%;
 }
 .pagenumber{
 	display: -moz-box;
@@ -40,9 +38,9 @@
 	display: -webkit-box;
 	display: box;
     position: absolute;
-    bottom: 0rem;
+    bottom: 0em;
     left: 35%;
-    height: 1rem;
+    height: 2em;
     width: 30%;
 }
 .pagenumber div{
@@ -67,8 +65,17 @@
     margin-top: -0.2em;
     margin-left: -0.2em;
 }
-
-
-.list{
-	height: 50rem;
+@media screen and (max-width: 360px) {
+    html,body{font-size: 15px}
 }
+@media screen and (min-width: 360px) and (max-width: 400px) {
+    html,body{font-size: 16px}
+}
+@media screen and (min-width: 400px) and (max-width: 460px) {
+    html,body{font-size: 18px}
+}
+@media screen and (min-width: 460px){
+    html,body{font-size: 24px}
+}
+
+

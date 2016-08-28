@@ -1,6 +1,6 @@
 require(['JURL', 'iscroll'], function(JURL, iscroll) {
 
-	console.log(JURL.localSearch());
+	//console.log(JURL.localSearch());
 	//init.init();
 	var myScroll = new iscroll('#header', {
 		scrollX: true,
