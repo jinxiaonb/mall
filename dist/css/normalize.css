@@ -444,6 +444,13 @@ ul{
   font-style: normal;
 }
 
+.hidden{
+  display: none;
+}
+input{
+  -webkit-appearance: none;
+  border-radius: 0;
+}
 
 p,h1,h2,h3,h4,h5,h6{
   margin: 0;
@@ -451,7 +458,15 @@ p,h1,h2,h3,h4,h5,h6{
 em,span{
   font-style: normal;
 }
-
+.t-left{
+  text-align: left;
+}
+.t-right{
+  text-align: right;
+}
+.t-center{
+  text-align: center;
+}
 
 
 .content{

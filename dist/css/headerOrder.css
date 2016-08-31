@@ -1,0 +1,48 @@
+#header-order {
+	position: fixed; 
+	z-index: 1;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 36px;
+	background: #ccc;
+	overflow: hidden;
+}
+#header-order ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	border-bottom: 1px solid #999;
+}
+#header-order li{
+	display: inline-block;
+	float: left;
+	width: 3.2rem;
+	height: 35px;
+	line-height: 35px;
+	background-color: #fff;
+	font-size: 0.6rem;
+}
+#header-order li.selected{
+	border-bottom: 1px solid #333;
+}
+#header-order a{
+	display: inline-block;
+	width: 100%;
+}
+
+#header-order a:link{
+	color: #666;
+}
+#header-order a:visited{
+	color: #666;
+}
+#header-order a:active{
+	color: #666;
+}
+#header-order a:focus{
+	color: #666;
+}

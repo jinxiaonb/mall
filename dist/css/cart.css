@@ -1,3 +1,6 @@
+.content{
+	margin-bottom: 120px;
+}
 .info{
 	font-size: 0.6rem;
 	height: 1.2rem;
@@ -46,19 +49,23 @@
 	-webkit-box-flex: 7;
 }
 .cart-info h5{
-	font-size:0.7rem;
+	font-size:0.5rem;
 	height: 1.5rem;
+	color: #666;
 }
 .cart-info input{
 	position: relative;
 	font-size: 0.6rem;
-	width: 1.5rem;
-	height: 1.2rem;
+	width: 1.2rem;
+	height: 1.1rem;
 	border: 0;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
 	text-align: center;
-	top: -0.18rem;
+	top: -0.03rem;
 }
 .price{
+	font-size:0.8rem;
 	color: #f00;
 }
 .cart-ope p{
@@ -67,7 +74,6 @@
 .num-ope{
 	border: 1px solid #dedede;
 	background-color: #f2f2f2;
-	height: 1.4rem;
 	margin-left: 0.5rem;
 	margin-right: 0.8rem;
 	position: relative;
@@ -76,13 +82,17 @@
 	width: 1.4rem;
 	height: 1.4rem;
 	line-height: 1.4rem;
-	border-right: 1px solid #dedede;
+	display: inline-block;
+	text-align: center;
+	font-size: 0.6rem;
 }
 .add{
 	width: 1.4rem;
 	height: 1.4rem;
 	line-height: 1.4rem;
-	border-left: 1px solid #dedede;
+	display: inline-block;
+	text-align: center;
+	font-size: 0.6rem;
 }
 
 

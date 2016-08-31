@@ -26,6 +26,7 @@
 		<title>XX商城</title>
 		<link rel="stylesheet" href="dist/css/normalize.css">
 		<link rel="stylesheet" href="dist/css/header.css">
+		<link rel="stylesheet" href="dist/css/footer.css">
 		<link rel="stylesheet" href="dist/css/index.css">
 	</head>
 	<body>
@@ -45,15 +46,47 @@
 		</div>
 
 		<!-- content start-->
-		<div class="slide">
-			xxxxx
+		<div id="slide" class="slide">
+			<div id="viewport" class="viewport" >
+				<div class="pageview" style="background-color: #3b76c0;">
+					<a href="#"><img src="images/slide/1.jpg" alt="1"></a>
+				</div>
+				<div class="pageview" style="background-color: #58c03b;">
+					<a href="#"><img src="images/slide/2.jpg" alt="2"></a>
+				</div>
+				<div class="pageview" style="background-color: #c03b25;">
+					<a href="#"><img src="images/slide/3.jpg" alt="3"></a>
+				</div>
+				<div class="pageview" style="background-color: #e0a718;">
+					<a href="#"><img src="images/slide/4.jpg" alt="4"></a>
+				</div>
+			</div>
+			<div class="pagenumber">
+		      	<div></div>
+		      	<div></div>
+		      	<div></div>
+		      	<div></div>
+		  	</div>
 		</div>
 		
+
+		<div class="list"></div>
 		<!-- content end-->
 
 
-		<!-- footer -->
+		<!-- footer start -->
+		<div id="footer">
+			<ul>
+				<li class="selected"><a href="/"><i class="iconfont">&#xe600;</i><span>商城首页</span></a></li>
+				<li><a href="/views/brand.html"><i class="iconfont">&#xe604;</i><span>品牌馆</span></a></li>
+				<li><a href="/views/cart.html"><i class="iconfont">&#xe601;</i><span>购物车</span></a></li>
+				<li><a href="/views/order.html"><i class="iconfont">&#xe602;</i><span>我的订单</span></a></li>
+				<li><a href="/views/person.html"><i class="iconfont">&#xe603;</i><span>个人中心</span></a></li>
+			</ul>
+		</div>
+		<!-- footer end -->
 		<script src="c/common/init.js"></script>
+		<script src="demo/slide.js"></script>
 		<script src="c/lib/jquery.min.js"></script>
 		<script src="c/lib/hammer.js"></script>
 		<script src="c/lib/require.js"></script>
