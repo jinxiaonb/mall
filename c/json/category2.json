@@ -1,0 +1,25 @@
+{
+	"result": true,
+	"append": false,
+	"goods": [{
+		"id": "1",
+		"title": "奔驰A45 AMG 黑色",
+		"money": "99",
+		"img": "/images/goods/6401.jpg"
+	}, {
+		"id": "2",
+		"title": "奔驰A45 AMG 白色",
+		"money": "199",
+		"img": "/images/goods/6402.jpg"
+	}, {
+		"id": "3",
+		"title": "奔驰A45 AMG 银色",
+		"money": "299",
+		"img": "/images/goods/6403.jpg"
+	}, {
+		"id": "4",
+		"title": "奔驰A45 AMG 红色",
+		"money": "399",
+		"img": "/images/goods/6404.jpg"
+	}]
+}

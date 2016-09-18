@@ -1,2 +1,2 @@
 # mall
-##develop with h5 in weixin
+##Using the HTML5 application development

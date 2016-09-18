@@ -27,19 +27,27 @@
 		<link rel="stylesheet" href="/dist/css/normalize.css">
 		<!-- <link rel="stylesheet" href="dist/css/header.css"> -->
 		<link rel="stylesheet" href="/dist/css/footer.css">
-		<link rel="stylesheet" href="/dist/css/index.css">
+		<link rel="stylesheet" href="/dist/css/category.css">
 	</head>
 	<body>
 		
 		<div class="search">search</div>
 		<!-- content start-->
-		
+		<div class="nav" id="nav">
+			<div id="scroller">
+				<span class="selected" data-type="storage" data-num="1"><i>收纳</i></span>
+				<span data-type="kitchen" data-num="1"><i>厨房</i></span>
+				<span data-type="electrical" data-num="1"><i>电器</i></span>
+				<span data-type="large" data-num="1"><i>大件</i></span>
+				<span data-type="beauty" data-num="1"><i>美容</i></span>
+			</div>
+		</div>
 		<div class="tab">
-			<span id="index" class="tab-index selected">最新</span>
-			<span id="hot" class="tab-hot">热门推荐</span>
+			<span class="selected" data-type="news">新品</span>
+			<span class="" data-type="sell">销量</span>
+			<span class="" data-type="price">价格</span>
 		</div>
 		<div class="c-index">
-			<div id="sliderBox" class="slider"></div>
 			<div class="index-list" id="wrapper">
 				<div class="scroller-content">
 					<div class="list-index">
@@ -61,39 +69,14 @@
 				</div>
 			</div>
 		</div>
-		<div class="c-hot hidden">
-			<div class="hot-list">
-				<div class="scroller-content">
-					<div class="list-index">
-						<p><a href="/views/detail.html?id=1"><img src="/images/goods/6401.jpg" alt=""></a></p>
-						<p class='info'><span class="t-left">奔驰A45 AMG</span><span class="t-right">RMB 59.00</span></p>
-					</div>
-					<div class="list-index">
-						<p><a href="/views/detail.html?id=1"><img src="/images/goods/6402.jpg" alt=""></a></p>
-						<p class='info'><span class="t-left">奔驰A45 AMG</span><span class="t-right">RMB 69.00</span></p>
-					</div>
-					<div class="list-index">
-						<p><a href="/views/detail.html?id=1"><img src="/images/goods/6403.jpg" alt=""></a></p>
-						<p class='info'><span class="t-left">奔驰A45 AMG</span><span class="t-right">RMB 79.00</span></p>
-					</div>
-					<div class="list-index">
-						<p><a href="/views/detail.html?id=1"><img src="/images/goods/6404.jpg" alt=""></a></p>
-						<p class='info'><span class="t-left">奔驰A45 AMG</span><span class="t-right">RMB 89.00</span></p>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-
-		<div class="list"></div>
 		<!-- content end-->
 
 
 		<!-- footer start -->
 		<div id="footer">
 			<ul>
-				<li class="selected"><a href="/"><i class="iconfont">&#xe600;</i><span>商城首页</span></a></li>
-				<li><a href="/views/category.html"><i class="iconfont">&#xe604;</i><span>分类</span></a></li>
+				<li><a href="/"><i class="iconfont">&#xe600;</i><span>商城首页</span></a></li>
+				<li class="selected"><a href="/views/category.html"><i class="iconfont">&#xe604;</i><span>分类</span></a></li>
 				<li><a href="/views/cart.html"><i class="iconfont">&#xe601;</i><span>购物车</span></a></li>
 				<li><a href="/views/order.html"><i class="iconfont">&#xe602;</i><span>我的订单</span></a></li>
 				<li><a href="/views/person.html"><i class="iconfont">&#xe603;</i><span>个人中心</span></a></li>
@@ -106,6 +89,6 @@
 		<script src="/c/lib/hammer.js"></script>
 		<script src="/c/lib/require.js"></script>
 		<script src="/c/config/main.js"></script>
-		<script src="/c/initLoad/index.js"></script>
+		<script src="/c/initLoad/category.js"></script>
 	</body>
 </html>
