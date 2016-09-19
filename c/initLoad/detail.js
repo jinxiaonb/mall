@@ -7,6 +7,9 @@ require(['JURL', 'CDetail', 'BDetail'], function(JURL, CDetail, BDetail) {
 		url: "/c/json/slide.json"
 	}, BDetail.initSlide);
 
+	CDetail.initData({
+		url: "/c/json/specs.json"
+	}, BDetail.initSpecs);
 
 	CDetail.initEvent();
 

@@ -1,0 +1,99 @@
+body{
+	background-color: #f2f2f2;
+}
+.content{
+	margin-bottom: 60px;
+}
+.top{
+	position: relative;
+	color: #fff;
+	background-color: #333;
+}
+.top img{
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	margin: 0 auto;
+}
+.top i{
+	position: relative;
+	color: #fff;
+	font-size: 36px;
+	margin-right: 8px;
+	top: 8px;
+}
+.message{
+
+}
+.info{
+	height: 60px;
+	line-height: 60px;
+	background-color: #333;
+	font-size: 16px;
+}
+.info span{
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+}
+
+.c-li{
+	overflow: hidden;
+	border-bottom: 1px solid #dedede;
+	margin:0 20px;
+	height: 50px;
+	line-height: 1.8rem;
+	font-size: 0.8rem;
+}
+.c-li strong{
+	float: left;
+}
+.c-li a{
+	float: right;
+	width: 6rem;
+	display: inline-block;
+	text-align: right;
+}
+.c-li a:link,.c-li a:visited,.c-li a:hover,.c-li a:active{
+	color: #666;
+}
+
+.p-detail,.contact{
+	margin-top: 16px;
+	background-color: #fff;
+	padding: 16px 0;
+}
+.contact{
+}
+
+.p-detail p.rec{
+	font-size: 16px;
+	margin-left: 20px;
+	line-height: 50px;
+	color: #666;
+}
+.detail-info {
+	margin-top: 20px;
+	border-bottom: 1px solid #dedede;
+	padding-bottom: 20px;
+}
+.detail-info p{
+	display: inline-block;
+	width: 5rem;
+	font-size: 0.8rem;
+	line-height: 30px;
+}
+.detail-info em,.detail-info span{
+	width: 5rem;
+	display: inline-block;
+	text-align: center;
+	color: #666;
+}
+.detail-info em{
+	font-size: 0.7rem;
+}
+.detail-info i{
+	font-size: 1rem;
+	margin-right: 4px;
+}

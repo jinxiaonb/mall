@@ -5,6 +5,7 @@ define(['reqAjax', 'JDialog'], function(reqAjax, JDialog) {
 	}
 
 
+
 	var initEvent = function() {
 		$(document).on("touchstart click", ".add-cart", function() {
 			var _this = $(this),
@@ -23,7 +24,39 @@ define(['reqAjax', 'JDialog'], function(reqAjax, JDialog) {
 			_specs.addClass("hidden");
 		});
 
-		$(document).on("touchstart click", "#confirm", function() {
+
+		$(document).on("touchstart", "#mini", function() {
+			var _this = $(this),
+				_num = parseInt($("#num").val()),
+				_stock = $("em.stock").text();
+			--_num;
+			if (_num < 1) {
+				JDialog.buildDialog({
+					JMessage: "数量最少为一件"
+				});
+				$("#num").val(_stock);
+			} else {
+				$("#num").val(_num);
+			}
+		});
+		$(document).on("touchstart", "#add", function() {
+			var _this = $(this),
+				_num = parseInt($("#num").val()),
+				_stock = parseInt($("em.stock").text());
+			++_num;
+			//console.log(_num, _stock);
+
+			if (_num > _stock) {
+				JDialog.buildDialog({
+					JMessage: "所购买数量超过了库存数量"
+				});
+				$("#num").val(_stock);
+			} else {
+				$("#num").val(_num);
+			}
+		});
+
+		$(document).on("touchstart", "#confirm", function() {
 			var _this = $(this),
 				_specs = $("#specs"),
 				_id = _this.attr("data-id"),
@@ -51,15 +84,12 @@ define(['reqAjax', 'JDialog'], function(reqAjax, JDialog) {
 								_specs.addClass("animated bouncelnDown");
 								_specs.addClass("hidden");
 							}
-						})
+						});
 
 					}
 
 				}
 			});
-
-
-
 		});
 	}
 
