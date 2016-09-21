@@ -20,6 +20,9 @@ body{
 	height: 16px;
 	margin-right: 4px;
 }
+.form label{
+	color: #999;
+}
 .btn a{
 	margin: 0 20px;
 	width: 90%;

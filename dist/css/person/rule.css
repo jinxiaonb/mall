@@ -1,1 +1,22 @@
-rule.css
+body{
+	background-color: #f2f2f2;
+}
+.form{
+	margin:0 16px;
+}
+h2{
+	font-size: 0.8rem;
+	line-height: 60px;
+}
+h3{
+	font-size: 0.7rem;
+	line-height: 50px;
+}
+p{
+	font-size: 0.6rem;
+	line-height: 28px;
+	text-indent: 2em;
+}
+.form a:link,.form a:visited,.form a:hover,.form a:active{
+	color: #3ca9ee;
+}

@@ -1,0 +1,46 @@
+body{
+	background-color: #f2f2f2;
+}
+.overflow{
+	overflow: hidden;
+	position: relative;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+
+.list{
+	background-color: #fff;
+	border-bottom: 1px solid #dedede;
+	height: 60px;
+	line-height: 60px;
+}
+.list i{
+	font-size: 1.4rem;
+	margin-left: 0.5rem;
+}
+.list .f-left{
+	width: 2rem;
+}
+.list span,.list em{
+	width: 13rem;
+	display: block;
+	text-align: left;
+	font-size: 0.8rem;
+}
+.list span{
+	line-height: 40px;
+}
+.list em{
+	height: 20px;
+	line-height: 14px;
+	font-size: 0.5rem;
+	color: #666;
+}
+
+.form a:link,.form a:visited,.form a:hover,.form a:active{
+	color: #333;
+}
