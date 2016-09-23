@@ -2,19 +2,19 @@
 	"result": true,
 	"slide": [{
 		"id": "1",
-		"link": "http://www.baidu.com",
-		"img": "/weixin/images/slide/1.jpg"
+		"link": "#",
+		"img": "/weixin/images/goods/6401.jpg"
 	}, {
 		"id": "2",
-		"link": "http://www.baidu.com",
-		"img": "/weixin/images/slide/2.jpg"
+		"link": "#",
+		"img": "/weixin/images/goods/6402.jpg"
 	}, {
 		"id": "3",
-		"link": "http://www.baidu.com",
-		"img": "/weixin/images/slide/3.jpg"
+		"link": "#",
+		"img": "/weixin/images/goods/6403.jpg"
 	}, {
 		"id": "4",
-		"link": "http://www.baidu.com",
-		"img": "/weixin/images/slide/4.jpg"
+		"link": "#",
+		"img": "/weixin/images/goods/6404.jpg"
 	}]
 }

@@ -1,12 +1,25 @@
+body{
+}
+.overflow{
+	overflow: hidden;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
 .content{
 	margin-bottom: 120px;
 }
 .info{
 	font-size: 0.6rem;
-	height: 1.2rem;
-	line-height: 1.2rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
 	color: #666;
-	border-bottom: 1px solid #dedede;
+	background-color: #333;
+	color: #fff;
+	padding-left: 0.5rem;
 }
 .info em{
 	color: #f00;
@@ -25,17 +38,10 @@
 	padding-right: 0.4rem;
 	padding-bottom: 0.4rem;
 	margin-top: 0.8rem;
-	display: -moz-box;
-	display: -o-box;
-	display: -webkit-box;
-	display: box;
 	position: relative;
 	border-bottom: 1px solid #dedede;
 }
 .cart-img{
-	-moz-box-flex:1;
-	-o-box-flex:1;
-	-webkit-box-flex: 1;
 	width: 3.5rem;
 	height: 3rem;
 }
@@ -44,14 +50,16 @@
 	height: 3rem;
 }
 .cart-info{
-	-moz-box-flex:7;
-	-o-box-flex:7;
-	-webkit-box-flex: 7;
+	width: 11rem;
 }
 .cart-info h5{
 	font-size:0.5rem;
 	height: 1.5rem;
 	color: #666;
+}
+.cart-info h5 span{
+	color: #333;
+	margin-right: 8px
 }
 .cart-info input{
 	position: relative;
@@ -95,7 +103,12 @@
 	font-size: 0.6rem;
 }
 
-
+.guarantee{
+	font-size: 0.5rem;
+	color: #999;
+	line-height: 24px;
+	padding-left: 0.4rem;
+}
 
 
 .checkout{

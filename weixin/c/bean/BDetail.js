@@ -26,7 +26,8 @@ define(['slidefocus'], function(slidefocus) {
 			//console.log(str);
 			$('#sliderBox').html(str);
 			slidefocus.slidefocus.init({
-				id: "#sliderBox"
+				id: "#sliderBox",
+				height: "100%"
 			});
 		}
 	}

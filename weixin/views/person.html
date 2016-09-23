@@ -42,8 +42,7 @@
 			</div>
 			<div class="p-detail">
 				<div class="c-li">
-					<strong>成为分享达人</strong>
-					<a href="/weixin/views/person/apply.html"><i class="iconfont">&#xe60e;</i></a>
+					<p id="shareperson">成为分享达人</p>
 				</div>
 				<div class="c-li">
 					<strong>我是捕手</strong>
@@ -54,16 +53,20 @@
 					<p><a href="/weixin/views/person/fans.html"><em><i class="iconfont">&#xe60b;</i>粉丝</em><span>126人</span></a></p>
 					<p><a href="/weixin/views/person/sales.html"><em><i class="iconfont">&#xe60f;</i>销售额</em><span>126778.65元</span></a></p>
 				</div>
-				<p class="rec">你是由[环球捕手]推荐</p>
+				<p class="rec">你是由[象盟]推荐</p>
 			</div>
 			<div class="contact">
 				<div class="c-li hidden">
 					<strong>联系客服</strong>
 					<a href="javascript:void(0);"><i class="iconfont">&#xe60e;</i></a>
 				</div>
-				<div class="c-li">
+				<div class="c-li hidden">
 					<strong>意见与反馈</strong>
 					<a href="/weixin/views/person/feedback.html"><i class="iconfont">&#xe60e;</i></a>
+				</div>
+				<div class="c-li">
+					<strong>如何推广</strong>
+					<a href="/weixin/views/person/rule.html"><i class="iconfont">&#xe60e;</i></a>
 				</div>
 				<div class="c-li">
 					<strong>设置</strong>
@@ -90,14 +93,7 @@
 		<script src="/weixin/c/lib/hammer.js"></script>
 		<script src="/weixin/c/lib/require.js"></script>
 		<script src="/weixin/c/config/main.js"></script>
-		<script>
-			(function(){
-				var test = {
-					init:function(){
-						console.log("init");
-					}()
-				}
-			})();
-		</script>
+		<script src="/weixin/c/initLoad/person.js"></script>
+		
 	</body>
 </html>

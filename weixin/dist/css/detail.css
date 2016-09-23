@@ -36,16 +36,22 @@ body{
 
 
 .desc{
-	font-size: 0.6rem;
+	font-size: 0.68rem;
 	background-color: #fff;
 	position: relative;
+	overflow: hidden;
+	padding-bottom: 0.5rem;
 }
 .desc p{
-	line-height: 38px;
 	padding: 0 10px;
 }
 .desc .title{
-	line-height: 30px;
+	line-height: 28px;
+}
+.desc .subtitle{
+	line-height: 24px;
+	font-size: 0.55rem;
+	color: #999;
 }
 .desc .time{
 	position: relative;
@@ -56,7 +62,6 @@ body{
 	background-color: #333;
 	color: #fff;
 	padding: 0 4px;
-	margin-top: 10px;
 }
 .desc .info{
 	font-size: 0.5rem;

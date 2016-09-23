@@ -20,6 +20,9 @@ require.config({
 		"BRegister": "bean/BRegister",
 		"CRegister": "controller/CRegister",
 
+		"BPerson": "bean/BPerson",
+		"CPerson": "controller/CPerson",
+
 		"jquery": "lib/jquery",
 		"slidefocus": "plugin/slidefocus",
 		"reqAjax": "req/reqAjax",

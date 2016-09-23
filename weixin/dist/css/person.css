@@ -37,7 +37,9 @@ body{
 	text-align: center;
 	color: #fff;
 }
-
+#shareperson{
+	text-align: center;
+}
 .c-li{
 	overflow: hidden;
 	border-bottom: 1px solid #dedede;

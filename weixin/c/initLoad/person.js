@@ -1,15 +1,14 @@
-require(['JURL', 'CIndex', 'BIndex'], function(JURL, CIndex, BIndex) {
+require(['JURL', 'CPerson', 'BPerson'], function(JURL, CPerson, BPerson) {
 
 	//console.log(JURL.localSearch());
 	//init.init();
 	//
-	CIndex.initData({
-		url: "/c/json/slide.json"
-	}, BIndex.initSlide);
+	CPerson.initData({
+		url: "/weixin/c/json/slide2.json"
+	}, BPerson.initData);
 
-
-	CIndex.initEvent();
-	CIndex.initMore(BIndex.initData);
+	CPerson.initEvent();
+	//CPerson.initMore(BPerson.initData);
 	//CIndex.initLoadMore();
 	// var myScroll = new iscroll('#header', {
 	// 	scrollX: true,
