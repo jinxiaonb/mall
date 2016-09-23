@@ -1,0 +1,274 @@
+body{
+	background-color: #f2f2f2;
+}
+.overflow{
+	overflow:hidden;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+
+.c-index{
+	margin-bottom: 60px;
+}
+
+.slider,
+.slider ul{
+	position:relative;
+}
+.slider ul li{
+	position:absolute;
+}
+.slider ul,
+.slider ul li,
+.slider ul li a,
+.slider ul li a img{
+	display:block;
+	width:100%;
+	height:100%;
+}
+.slider ul img{
+	margin-top: -23px;
+}
+
+
+.desc{
+	font-size: 0.6rem;
+	background-color: #fff;
+	position: relative;
+}
+.desc p{
+	line-height: 38px;
+	padding: 0 10px;
+}
+.desc .title{
+	line-height: 30px;
+}
+.desc .time{
+	position: relative;
+	font-size: 0.5rem;
+	height:20px;
+	line-height: 20px;
+	vertical-align: text-bottom;
+	background-color: #333;
+	color: #fff;
+	padding: 0 4px;
+	margin-top: 10px;
+}
+.desc .info{
+	font-size: 0.5rem;
+	border-top: 1px solid #dedede;
+}
+.desc .cur{
+	color: #f00;
+	font-size: 0.8rem;
+}
+.desc .old{
+	text-decoration:line-through;
+	margin-left: 8px;
+}
+
+.intro{
+	font-size: 0.5rem;
+	background-color: #fff;
+	margin-top: 0.8rem;
+	padding: 8px;
+}
+.intro img{
+	width: 5rem;
+}
+.intro p{
+	width: 9rem;
+	line-height: 22px;
+}
+
+.profile,.detail{
+	font-size: 0.6rem;
+	background-color: #fff;
+	margin-top: 0.8rem;
+	padding: 8px;
+}
+.profile h3, .detail h3{
+	line-height: 40px;
+}
+.profile p{
+	padding: 4px 8px;
+	position: relative;
+	overflow: hidden;
+}
+.profile p span{
+	float: left;
+	width: 3.9rem;
+	display: inline-block;
+}
+.profile p em{
+	float: right;
+	width: 10.5rem;
+	display: inline-block;
+	text-align: left;
+}
+
+
+.checkout{
+	position: fixed; 
+	z-index: 1;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background: #fff;
+	overflow: hidden;
+	display: -moz-box;
+	display: -o-box;
+	display: -webkit-box;
+	display: box;
+	border-top: 1px solid #dedede;
+
+}
+
+.cart{
+	-moz-box-flex:5;
+	-o-box-flex:5;
+	-webkit-box-flex: 5;
+	color: #f00;
+}
+.cart i{
+	margin-left: 8px;
+	font-size: 1.4rem;
+}
+.cart a{
+	position: relative;
+}
+.cart a:link,.cart a.active,.cart a:hover,.cart a:visited{
+	color: #333;
+}
+.cart span{
+	text-align: center;
+	display: inline-block;
+	font-size: 0.55rem;
+	width: 0.8rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	background-color: #f00;
+	color: #fff;
+	position: absolute;
+	border-radius: 0.4rem;
+	margin-top: 10px;
+	margin-left: -10px;
+}
+.total-btn{
+	-moz-box-flex:1;
+	-o-box-flex:1;
+	-webkit-box-flex: 1;
+	font-size: 0.8rem;
+}
+.total-btn em{
+	margin-right: 8px;
+	color: #f00;
+	font-size: 0.7rem;
+}
+.total-btn a{
+	background-color: #333;
+	color: #fff;
+	padding: 0.2rem 0.6rem;
+	font-size: 0.8rem;
+	border-radius: 0.15rem;
+}
+
+.specs{
+	position: fixed;
+	z-index: 2;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	height: 380px;
+	border-top: 1px solid #999;
+	background-color: #eee;
+	opacity: 0.95;
+}
+
+.specs .close{
+	text-align: right;
+	margin-right: 8px;
+	margin-top: 4px;
+	font-size: 1.5rem;
+}
+.specs-info{
+	position: relative;
+	opacity: 1;
+	background-color: #eee;
+}
+.specs-info img{
+	width: 3rem;
+	height:3rem;
+	margin-left: 0.5rem;
+}
+.specs-info .goods-info{
+	width: 12rem;
+	height: 3rem;
+}
+.goods-info p{
+	line-height: 1rem;
+	font-size: 0.6rem;
+}
+.goods-info em.price,.goods-info em.stock,.goods-info em.sizes{
+	color: #f00;
+}
+.c-specs{
+	font-size: 0.8rem;
+	margin-left: 10px;
+	margin-top: 30px;
+}
+.c-specs em{
+	padding: 4px 8px;
+	border: 1px solid #fff;
+	border-radius: 4px;
+	background-color: #666;
+	color: #fff;
+	margin-right: 8px;
+	font-size: 0.6rem;
+}
+.c-specs em.selected{
+	background-color: #000;
+}
+.c-specs em.unselected{
+	background-color: #ccc;
+}
+
+.c-num{
+	position: relative;
+}
+.c-num i{
+	width: 40px;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;
+	border: 1px solid #333;
+	text-align: center;
+}
+.c-num .num{
+	width: 40px;
+	height: 20px;
+	line-height: 20px;
+	border: 0px solid #333;
+	background-color: #eee;
+	opacity: 0.95;
+	text-align: center;
+}
+
+.c-confirm{
+	margin-top: 40px;
+	text-align: right;
+}
+.c-confirm span{
+	margin-right: 40px;
+	background-color: #333;
+	color: #fff;
+	padding: 0.3rem 0.8rem;
+	font-size: 0.6rem;
+	border-radius: 0.15rem;
+}

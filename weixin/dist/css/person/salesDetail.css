@@ -1,0 +1,45 @@
+body{
+	background-color: #f2f2f2;
+}
+.overflow{
+	overflow: hidden;
+	position: relative;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+.t-left{
+	text-align: left!important;
+}
+.form{
+	background-color: #fff;
+}
+.form h3{
+	font-size: 0.8rem;
+	line-height: 3rem;
+	border-bottom: 1px solid #dedede;
+	background-color: #fff;
+	padding: 0 0.5rem;
+}
+.form h3 span{
+	color: #666;
+}
+.form p{
+	background-color: #fff;
+	padding: 0 0.5rem;
+	font-size: 0.68rem;
+	line-height: 1.1rem;
+	margin-top: 0.4rem;
+}
+.form p span{
+	width: 4rem;
+	color: #666;
+}
+.form p em{
+	width: 10rem;
+	text-align: right;
+	color: #333;
+}

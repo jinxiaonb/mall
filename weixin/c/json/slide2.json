@@ -1,0 +1,20 @@
+{
+	"result": true,
+	"slide": [{
+		"id": "1",
+		"link": "#",
+		"img": "/weixin/images/slide2/1.jpg"
+	}, {
+		"id": "2",
+		"link": "#",
+		"img": "/weixin/images/slide2/2.jpg"
+	}, {
+		"id": "3",
+		"link": "#",
+		"img": "/weixin/images/slide2/3.jpg"
+	}, {
+		"id": "4",
+		"link": "#",
+		"img": "/weixin/images/slide2/4.jpg"
+	}]
+}

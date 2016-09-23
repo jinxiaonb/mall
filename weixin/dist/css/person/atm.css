@@ -1,0 +1,53 @@
+body{
+	background-color: #f2f2f2;
+}
+.content{
+	margin-bottom: 60px;
+}
+.form{
+	position: relative;
+	margin-top: 0.8rem;
+}
+.atm{
+	position: relative;
+	background-color: #fff;
+	border-radius: 8px;
+	margin: 0 20px;
+}
+.atm h2{
+	line-height: 3rem;
+	font-size: 0.8rem;
+	padding-left: 1rem;
+}
+.atm input{
+	margin-left: 1rem;
+	margin-right: 1rem;
+	border: 0;
+	border-bottom: 1px solid #dedede;
+	line-height: 1.2rem;
+}
+.atm p{
+	line-height: 2rem;
+	padding-left: 1rem;
+	font-size: 0.6rem;
+	color: #666;
+}
+.atm p span{
+	color: #f00;
+}
+.btn a{
+	margin: 20px 20px;
+	width: 90%;
+	font-size: 0.8rem;
+	line-height: 2rem;
+	text-align: center;
+	display: inline-block;
+	background-color: #ccc;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.btn a.selected{
+	background-color: #333;
+	color: #fff;
+}

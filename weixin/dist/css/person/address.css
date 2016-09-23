@@ -1,0 +1,92 @@
+body{
+	background-color: #f2f2f2;
+}
+.overflow{
+	overflow: hidden;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+.content{
+	width: 16rem;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+.none-add{
+	position: relative;
+	margin-top: 4rem;
+}
+.none-add p{
+	margin-bottom: 16px;
+	font-size: 0.8rem;
+	color: #999;
+}
+.none-add i{
+	font-size: 3rem;
+	color: #999;
+}
+
+
+.checkout{
+	position: fixed; 
+	z-index: 1;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background: #fff;
+	overflow: hidden;
+	border-top: 1px solid #dedede;
+	font-size: 0.68rem;
+}
+.add-btn{
+	text-align: center;
+}
+.add-btn a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	font-size: 1rem;
+	background-color: #333;
+	color: #fff;
+}
+.add-btn a:link,.add-btn a:visited,.add-btn a:hover,.add-btn a:active{
+	color: #fff;
+}
+
+.list-add{
+	border-top: 1px solid #dedede;
+	background-color: #fff;
+}
+.list{
+	border-bottom: 1px solid #dedede;
+	padding: 10px 10px;
+	font-size: 0.68rem;
+}
+.list div.f-left{
+	width:13rem;
+}
+.list p{
+	line-height: 1.4rem;
+	overflow: hidden;
+	position: relative;
+}
+.list i{
+	position: relative;
+	margin-top: 1.4rem;
+	font-size: 1.4rem;
+	color: #999;
+}
+.list.selected i{
+	color: #333;
+}
+.a-detail{
+	font-size: 0.58rem;
+	text-align: left;
+	color: #999;
+}

@@ -1,0 +1,76 @@
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+.overflow{
+	overflow:hidden;
+}
+.JDialog-mask{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:100%;
+	background-color:#f3f3f3;
+	opacity:0.7;
+	overflow:hidden;
+	z-index:1998;
+}
+.JDialog{
+	position: absolute;
+	/*top:20%;*/
+	left:8rem;
+	margin-left:-8.17rem;
+	width:16rem;
+	min-height:200px;
+	border:4px solid #cdcdcd;
+	background-color:#fff;
+	z-index:1999;
+}
+.JDialog-head{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #cdcdcd;
+	font-size: 14px;
+	background-color: #333;
+	color: #fff;
+}
+.JDialog-head .JDialog-title{
+	margin-left: 10px;
+}
+.JDialog-head .JDialog-close{
+	text-align: center;
+	width:40px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	cursor: pointer;
+}
+.JDialog-content{
+	text-align: center;
+	line-height: 80px;
+}
+.JDialog-btn{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.JDialog-btn a{
+	font-size: 12px;
+	width: 60px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	display: inline-block;
+	border-radius: 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #fff;
+}
+.JDialog-submit{
+	background-color: #fa6b5b;
+}
+.JDialog-close{
+	background-color: #333;
+}

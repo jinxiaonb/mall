@@ -1,0 +1,52 @@
+body{
+	background-color: #f2f2f2;
+}
+.content{
+	margin-bottom: 60px;
+}
+.form img{
+	width: 16rem;
+	height: 16rem;
+}
+.protocal{
+	position: relative;
+	font-size: 0.68rem;
+	line-height: 50px;
+}
+.protocal input{
+	position: relative;
+	top: 2px;
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+}
+.form label{
+	color: #999;
+}
+.btn a{
+	margin: 0 20px;
+	width: 90%;
+	font-size: 0.8rem;
+	line-height: 2rem;
+	text-align: center;
+	display: inline-block;
+	background-color: #ccc;
+	color: #666;
+	border-radius: 4px;
+}
+
+.rule{
+	font-size: 0.6rem;
+	margin-top: 40px;
+}
+.rule a{
+	color: #333;
+}
+
+.form a:link,.form a:visited,.form a:hover,.form a:active{
+	color: #333;
+}
+.btn a.selected{
+	background-color: #333;
+	color: #fff;
+}

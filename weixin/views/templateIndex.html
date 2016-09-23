@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+	<head>
+		<meta charset="utf-8">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Cache-Control" content="no-siteapp"><!-- 百度禁止转码 -->
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+		<meta name="apple-mobile-web-app-title" content=""><!-- 添加到主屏后的标题 -->
+		<meta content="yes" name="apple-mobile-web-app-capable" /><!-- 是否启用 WebApp 全屏模-->
+		<meta content="black" name="apple-mobile-web-app-status-bar-style" /><!-- 设置状态栏的背景颜色 -->
+		<meta content="telephone=no,email=no" name="format-detection" /><!-- 禁止数字识自动别为电话号码  -->
+		<meta name="theme-color" content="#db5945"><!-- android中用来控制选项卡的颜色 -->
+		<meta name="msapplication-TileColor" content="#000"/> <!-- Windows 8 磁贴颜色 -->
+		<meta name="msapplication-TileImage" content="icon.png"/> <!-- Windows 8 磁贴图标 -->
+		<!-- <link rel="shortcut icon" type="image/ico" href="/favicon.ico" /> -->
+		<meta name="google" value="notranslate" /><!-- 关闭chrome浏览器下翻译插件 -->
+		<!-- 页面描述 -->
+	    <meta name="description" content="不超过150个字符"/>
+	    <!-- 页面关键词 -->
+	    <meta name="keywords" content=""/>
+	    <!-- 网页作者 -->
+	    <meta name="author" content="jinxiao, 315232021@163.com"/>
+	    <!-- 搜索引擎抓取 -->
+	    <meta name="robots" content="index,follow"/>
+		<title>XIANG MENG</title>
+		<link rel="stylesheet" href="/weixin/dist/css/normalize.css">
+		<!-- <link rel="stylesheet" href="dist/css/header.css"> -->
+		<link rel="stylesheet" href="/weixin/dist/css/footer.css">
+		<link rel="stylesheet" href="/weixin/dist/css/index.css">
+	</head>
+	<body>
+		
+		<div class="search">search</div>
+		<!-- content start-->
+		
+		<div class="tab">
+			<span id="index" class="tab-index selected">最新</span>
+			<span id="hot" class="tab-hot">热门推荐</span>
+		</div>
+		<div class="c-index">
+			<div id="sliderBox" class="slider"></div>
+			<div class="index-list" id="wrapper">
+				<!-- <div id="scroller"> -->
+					<!-- <div id="scroller-pullDown">
+						<span id="down-icon" class="icon-double-angle-down pull-down-icon"></span>
+						<span id="pullDown-msg" class="pull-down-msg"></span>
+					</div> -->
+					<div class="scroller-content">
+						<div class="list-index">
+							<p><a href="#"><img src="/weixin/images/goods/6401.jpg" alt=""></a></p>
+							<p class='info'><span class="t-left">奔驰A45 AMG</span><span class="t-right">RMB 99.00</span></p>
+						</div>
+						<div class="list-index">
+							<p><a href="#"><img src="/weixin/images/goods/6402.jpg" alt=""></a></p>
+							<p class='info'><span class="t-left">奔驰A45 AMG</span><span class="t-right">RMB 99.00</span></p>
+						</div>
+						<div class="list-index">
+							<p><a href="#"><img src="/weixin/images/goods/6403.jpg" alt=""></a></p>
+							<p class='info'><span class="t-left">奔驰A45 AMG</span><span class="t-right">RMB 99.00</span></p>
+						</div>
+						<div class="list-index">
+							<p><a href="#"><img src="/weixin/images/goods/6404.jpg" alt=""></a></p>
+							<p class='info'><span class="t-left">奔驰A45 AMG</span><span class="t-right">RMB 99.00</span></p>
+						</div>
+					</div>
+					<!-- <div id="scroller-pull">
+						<span id="up-icon" class="icon-double-angle-up pull-up-icon"></span>
+						<span id="pullUp-msg" class="pull-up-msg"></span>
+					</div> -->
+				<!-- </div> -->
+				
+			</div>
+		</div>
+		<div class="c-hot hidden">
+			<div class="hot-list">
+				<div class="scroller-content">
+					<div class="list-index">
+						<p><a href="#"><img src="/weixin/images/goods/6401.jpg" alt=""></a></p>
+						<p class='info'><span class="t-left">奔驰A45 AMG</span><span class="t-right">RMB 99.00</span></p>
+					</div>
+					<div class="list-index">
+						<p><a href="#"><img src="/weixin/images/goods/6402.jpg" alt=""></a></p>
+						<p class='info'><span class="t-left">奔驰A45 AMG</span><span class="t-right">RMB 99.00</span></p>
+					</div>
+					<div class="list-index">
+						<p><a href="#"><img src="/weixin/images/goods/6403.jpg" alt=""></a></p>
+						<p class='info'><span class="t-left">奔驰A45 AMG</span><span class="t-right">RMB 99.00</span></p>
+					</div>
+					<div class="list-index">
+						<p><a href="#"><img src="/weixin/images/goods/6404.jpg" alt=""></a></p>
+						<p class='info'><span class="t-left">奔驰A45 AMG</span><span class="t-right">RMB 99.00</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<div class="list"></div>
+		<!-- content end-->
+
+
+		<!-- footer start -->
+		<div id="footer">
+			<ul>
+				<li class="selected"><a href="/weixin/index.html"><i class="iconfont">&#xe600;</i><span>商城首页</span></a></li>
+				<li><a href="/weixin/views/category.html"><i class="iconfont">&#xe604;</i><span>品牌馆</span></a></li>
+				<li><a href="/weixin/views/cart.html"><i class="iconfont">&#xe601;</i><span>购物车</span></a></li>
+				<li><a href="/weixin/views/order.html"><i class="iconfont">&#xe602;</i><span>我的订单</span></a></li>
+				<li><a href="/weixin/views/person.html"><i class="iconfont">&#xe603;</i><span>个人中心</span></a></li>
+			</ul>
+		</div>
+		<!-- footer end -->
+		<script src="/weixin/c/common/init.js"></script>
+		<!-- <script src="c/plugin/JSlide/slide.js"></script> -->
+		<script src="/weixin/c/lib/jquery.min.js"></script>
+		<script src="/weixin/c/lib/hammer.js"></script>
+		<script src="/weixin/c/lib/require.js"></script>
+		<script src="/weixin/c/config/main.js"></script>
+		<script src="/weixin/c/initLoad/index.js"></script>
+	</body>
+</html>
+
+<!-- header -->
+		<!-- <div id="header">
+			<div id="scroller">
+				<ul>
+					<li><a href="http://www.baidu.com">首页</a></li>
+					<li class="selected"><a href="http://www.baidu.com">滋补保健</a></li>
+					<li><a href="http://www.baidu.com">休闲零食</a></li>
+					<li><a href="http://www.baidu.com">水果生鲜</a></li>
+					<li><a href="http://www.baidu.com">手工美食</a></li>
+					<li><a href="http://www.baidu.com">茶饮酒水</a></li>
+					<li><a href="http://www.baidu.com">母婴健康</a></li>
+				</ul>
+			</div>
+		</div> -->
+<!-- <div id="slide" class="slide">
+			<div id="viewport" class="viewport" >
+				<div class="pageview" style="background-color: #3b76c0;">
+					<a href="#"><img src="images/slide/1.jpg" alt="1"></a>
+				</div>
+				<div class="pageview" style="background-color: #58c03b;">
+					<a href="#"><img src="images/slide/2.jpg" alt="2"></a>
+				</div>
+				<div class="pageview" style="background-color: #c03b25;">
+					<a href="#"><img src="images/slide/3.jpg" alt="3"></a>
+				</div>
+				<div class="pageview" style="background-color: #e0a718;">
+					<a href="#"><img src="images/slide/4.jpg" alt="4"></a>
+				</div>
+			</div>
+			<div class="pagenumber">
+		      	<div></div>
+		      	<div></div>
+		      	<div></div>
+		      	<div></div>
+		  	</div>
+		</div> -->

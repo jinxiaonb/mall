@@ -1,0 +1,78 @@
+body{
+	background-color: #f2f2f2;
+}
+.overflow{
+	overflow: hidden;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+
+.contact{
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+.c-li{
+	overflow: hidden;
+	border-bottom: 1px solid #dedede;
+	margin:0 20px;
+	height: 2rem;
+	line-height: 2rem;
+	font-size: 0.68rem;
+	color: #666;
+}
+.c-li i{
+	width: 8px;
+	margin-right: 4px;
+	color: #f00;
+	display: inline-block;
+}
+.c-li strong{
+	width: 100px;
+	display: inline-block;
+	font-weight: normal;
+}
+.c-li input{
+	border: 0;
+	line-height: 1.2rem;
+}
+.c-li select{
+	width: 4rem;
+}
+
+.set-default{
+	line-height: 2rem;
+	background-color: #fff;
+	margin-top: 8px;
+	padding: 0 20px;
+	font-size: 0.68rem;
+}
+.set-default div{
+	position: relative;
+}
+.set-default input{
+	margin-top: 0.6rem;
+}
+.set-default i{
+	font-size: 1.2rem;
+	color: #999;
+}
+.set-default i.selected{
+	color: #333;
+}
+
+.set-btn{
+	line-height: 2rem;
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+	margin: 0 20px;
+	margin-top: 36px;
+	font-size: 0.8rem;
+}
+.set-btn a:link,.set-btn a:visited,.set-btn a:hover,.set-btn a:active{
+	color: #fff;
+}

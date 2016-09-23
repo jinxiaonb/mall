@@ -1,0 +1,61 @@
+body{
+	background-color: #f2f2f2;
+}
+.content{
+	margin-bottom: 60px;
+}
+.form{
+	text-align: center;
+}
+.form .img{
+	margin-top: 3rem;
+}
+.form img{
+	width: 6rem;
+	height: 6rem;
+}
+.form p{
+	line-height: 60px;
+	color: #666;
+}
+.form h2,.form h5{
+	color: #333;
+}
+.form h5{
+	font-size: 0.68rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	font-style: normal;
+	font-weight: normal;
+}
+.form h5 span{
+	font-size: 0.6rem;
+}
+.btn{
+	margin-bottom: 0.8rem;
+}
+.btn a{
+	margin: 0 20px;
+	width: 90%;
+	font-size: 0.8rem;
+	line-height: 2rem;
+	text-align: center;
+	display: inline-block;
+	background-color: #fff;
+	color: #333;
+	border-radius: 4px;
+}
+.btn a.atm{
+	background-color: #333;
+	color: #fff;
+}
+
+
+
+.form a:link,.form a:visited,.form a:hover,.form a:active{
+	/*color: #333;*/
+}
+.btn a.selected{
+	background-color: #333;
+	color: #fff;
+}

@@ -1,0 +1,28 @@
+body{
+	background-color: #f2f2f2;
+}
+.content{
+	background-color: #fff;
+}
+
+
+.c-li{
+	overflow: hidden;
+	border-bottom: 1px solid #dedede;
+	margin:0 20px;
+	height: 1.8rem;
+	line-height: 1.8rem;
+	font-size: 0.8rem;
+}
+.c-li strong{
+	float: left;
+}
+.c-li a{
+	float: right;
+	width: 8rem;
+	display: inline-block;
+	text-align: right;
+}
+.c-li a:link,.c-li a:visited,.c-li a:hover,.c-li a:active{
+	color: #666;
+}

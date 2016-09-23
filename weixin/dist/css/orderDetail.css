@@ -1,0 +1,79 @@
+body{
+	background-color: #f2f2f2;
+}
+.overflow{
+	overflow:hidden;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+.refund{
+	background-color: #333;
+	color: #fff;
+	padding: 0 10px;
+	padding-bottom: 10px;
+}
+.refund h4{
+	line-height: 2rem;
+}
+.refund p{
+	line-height: 1.3rem;
+}
+.l-order{
+	color: #666;
+	background-color: #fff;
+	position: relative;
+	font-size: 0.6rem;
+}
+.l-order h3{
+	line-height: 2rem;
+	padding: 0 10px;
+	background-color: #ddd;
+}
+.order-goods{
+	display: -moz-box;
+	display: -o-box;
+	display: -webkit-box;
+	display: box;
+	position: relative;
+}
+.order-img{
+	padding: 10px;
+	-moz-box-flex:1;
+	-o-box-flex:1;
+	-webkit-box-flex: 1;
+	width: 3.5rem;
+	height: 3rem;
+}
+.order-img img{
+	width: 3.5rem;
+	height: 3rem;
+}
+.order-info{
+	-moz-box-flex:7;
+	-o-box-flex:7;
+	-webkit-box-flex: 7;
+}
+.order-info p{
+	line-height: 24px;
+	width: 11rem;
+}
+.order-info .title{
+	margin-top: 8px;
+}
+.order-info em{
+	display: inline-block;
+}
+.order-info span{
+	text-align: right;
+}
+
+.order-list p{
+	padding: 0 10px;
+	line-height: 2rem;
+	font-size: 0.75rem;
+	border-bottom: 1px solid #dedede;
+}

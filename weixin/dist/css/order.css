@@ -1,0 +1,114 @@
+.content{
+	background-color: #efefef;
+	margin-top: 36px;
+	position: relative;
+}
+.order{
+}
+.c-order{
+	margin-bottom: 80px;
+}
+.l-order{
+	color: #666;
+	background-color: #fff;
+	top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	font-size: 0.7rem;
+}
+.order-status{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #dedede;
+}
+.order-status em{
+	width: 100px;
+	display: inline-block;
+	text-align: center;
+	border-right: 1px solid #dedede;
+	color: #f00;
+}
+.order-status span{
+	font-size: 0.5rem;
+	margin-left: 20px;
+}
+.order-goods{
+	display: -moz-box;
+	display: -o-box;
+	display: -webkit-box;
+	display: box;
+	position: relative;
+	border-bottom: 1px solid #dedede;
+}
+.order-img{
+	padding: 10px;
+	-moz-box-flex:1;
+	-o-box-flex:1;
+	-webkit-box-flex: 1;
+	width: 3.5rem;
+	height: 3rem;
+}
+.order-img img{
+	width: 3.5rem;
+	height: 3rem;
+}
+.order-info{
+	-moz-box-flex:7;
+	-o-box-flex:7;
+	-webkit-box-flex: 7;
+}
+.order-info em{
+	padding-top: 10px;
+	width: 8rem;
+	font-size: 0.5rem;
+	display: inline-block;
+}
+.order-info span{
+	width: 3rem;
+	display: inline-block;
+	text-align: right;
+}
+.l-order a:link,.l-order a:visited,.l-order a:hover,.l-order a:active{
+	color: #333;
+}
+.order-checkout{
+	position: relative; 
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	background: #fff;
+	overflow: hidden;
+	display: -moz-box;
+	display: -o-box;
+	display: -webkit-box;
+	display: box;
+	border-bottom: 1px solid #dedede;
+}
+.total-price{
+	-moz-box-flex:3;
+	-o-box-flex:3;
+	-webkit-box-flex: 3;
+}
+.total-price span{
+	margin-left: 0.4rem;
+}
+.total-btn{
+	-moz-box-flex:1;
+	-o-box-flex:1;
+	-webkit-box-flex: 1;
+}
+.total-btn a{
+	padding: 0.2rem 0.8rem;
+	font-size: 0.6rem;
+	border-radius: 0.15rem;
+}
+.total-btn a.cancel{
+	color: #333;
+	border: 1px solid #333;
+	margin-right: 20px;
+}
+.total-btn a.checkout,.total-btn a.receipt,.total-btn a.vieworder{
+	background-color: #333;
+	color: #fff;
+	border: 1px solid #333;
+}

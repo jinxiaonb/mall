@@ -1,0 +1,33 @@
+{
+	"result": true,
+	"append": false,
+	"goods": [{
+		"id": "1",
+		"title": "奔驰A45 AMG 黑色",
+		"subtitle": "平民界的小钢炮1",
+		"money": "99",
+		"oldmoney": "139",
+		"img": "/weixin/images/goods/6401.jpg"
+	}, {
+		"id": "2",
+		"title": "奔驰A45 AMG 白色",
+		"subtitle": "平民界的小钢炮2",
+		"money": "199",
+		"oldmoney": "239",
+		"img": "/weixin/images/goods/6402.jpg"
+	}, {
+		"id": "3",
+		"title": "奔驰A45 AMG 银色",
+		"subtitle": "平民界的小钢炮3",
+		"money": "299",
+		"oldmoney": "339",
+		"img": "/weixin/images/goods/6403.jpg"
+	}, {
+		"id": "4",
+		"title": "奔驰A45 AMG 红色",
+		"subtitle": "平民界的小钢炮4",
+		"money": "399",
+		"oldmoney": "439",
+		"img": "/weixin/images/goods/6404.jpg"
+	}]
+}

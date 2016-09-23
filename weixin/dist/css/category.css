@@ -1,0 +1,125 @@
+/*.slide{
+	width: 100%;
+	height: 8rem;
+	margin-top: 46px;
+	position: relative;
+	overflow: hidden;
+}*/
+.search{
+	height: 46px;
+	background-color: #eee;
+	border-bottom: 1px solid #dedede;
+}
+
+.nav{
+	position: relative; 
+	z-index: 1;
+	left: 0;
+	width: 16rem;
+	height: 80px;
+	line-height: 80px;
+	background: #333;
+	overflow: hidden;
+}
+#scroller {
+	position: absolute;
+	z-index: 1;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	width: 20rem;
+	height: 79px;
+	background-color: #333;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;
+	text-size-adjust: none;
+}
+.nav span{
+	float: left;
+	display: inline-block;
+	width: 4rem;
+	text-align: center;
+	font-size: 0.6rem;
+	color: #fff;
+}
+.nav span i{
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	line-height: 2rem;
+	border-radius: 1rem;
+	border:1px solid #010101;
+	font-style: normal;
+	background-color: #010101;
+}
+.nav span.selected i{
+	border:1px solid #fff;
+	background-color:#8E5A49;
+}
+.tab{
+	height: 46px;
+	line-height: 46px;
+}
+.tab span{
+	display: inline-block;
+	width: 5.14rem;
+	text-align: center;
+	font-size: 0.6rem;
+}
+.tab .selected{
+	border-bottom:2px solid #333;
+}
+
+.index-list{
+	margin-top: 5px;
+	margin-bottom: 70px;
+	position: relative;
+}
+.list-index{
+	margin-bottom: 40px;
+	width: 16rem;
+	height: 19rem;
+	border-bottom: 1px solid #333;
+}
+.list-index .title{
+	padding:0 0.5rem;
+	font-size: 0.8rem;
+	color: #333;
+}
+.list-index img{
+	width: 16rem;
+	height: 16rem;
+}
+.info{
+	height: 2rem;
+	color: #999;
+}
+.info span{
+	width: 7.5rem;
+	display: inline-block;
+	font-size: 0.6rem;
+	overflow: hidden;
+}
+.info span.t-left{
+	padding-left: 0.5rem;
+}
+.info span.t-right{
+	padding-right: 0.5rem;
+	font-weight: bold;
+	color: #f00;
+}
+.info span.t-right i{
+	text-decoration: line-through;
+	margin-left: 8px;
+	color: #999;
+}
