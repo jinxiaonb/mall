@@ -9,6 +9,24 @@ body{
 .f-right{
 	float: right;
 }
+
+.none-cart{
+	position: relative;
+	margin-top: 4rem;
+}
+.none-cart p {
+    margin-bottom: 16px;
+    font-size: 0.8rem;
+    color: #999;
+    text-align: center;
+}
+.none-cart i {
+    font-size: 3rem;
+    color: #999;
+}
+.none-cart a{
+	color: #f00;
+}
 .content{
 	margin-bottom: 120px;
 }

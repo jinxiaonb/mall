@@ -29,52 +29,53 @@
 		<link rel="stylesheet" href="/weixin/dist/css/cart.css">
 	</head>
 	<body>
-
-
-		
-		
 		<!-- content start-->
 		<div class="content">
 			<div class="info">
 				<p>请尽快提交订单，否则商品可能会被抢完。</p>
 			</div>
 			<div class="cart">
-				<div class="cart-list">
-					<div class="c-list">
+				<div class="none-cart hidden">
+					<p><i class="iconfont">&#xe601;</i></p>
+					<p><a href="/weixin/views/index.html">继续逛逛</a></p>
+				</div>
+				<div class="cart-list" id="cart-list">
+					<!-- data-id:商品id，data-specsid:规格id,data-num:商品数量，这个主要是为了点击去结算的时候方便计算 -->
+					<div class="c-list" data-id="1" data-specsid="12" data-num="1">
 						<div class="cart-box overflow">
 							<div class="cart-img f-left"><img src="/weixin/images/cart/cart.jpg" alt=""></div>
 							<div class="cart-info f-right">
 								<h5>哥蓝V+儿童牛奶草莓味200ML*12<span>(规格：黑色、两厢)</span></h5>
 								<div class="cart-ope">
 									<p><span class="price">￥96.0</span></p>
-									<p class="num-ope"><i class="iconfont minus">&#xe608;</i><input type="text" value="1" class="num"><i class="iconfont add">&#xe607;</i></p>
-									<p><i class="iconfont">&#xe605;</i></p>
+									<p class="num-ope"><i class="iconfont minus">&#xe608;</i><input type="text" data-stock="1" data-price="96.0" value="1" class="num"><i class="iconfont add">&#xe607;</i></p>
+									<p><i class="iconfont del">&#xe605;</i></p>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="c-list">
+					<div class="c-list" data-id="2" data-specsid="13" data-num="1">
 						<div class="cart-box overflow">
 							<div class="cart-img f-left"><img src="/weixin/images/cart/cart.jpg" alt=""></div>
 							<div class="cart-info f-right">
 								<h5>哥蓝V+儿童牛奶草莓味200ML*12<span>(规格：黑色、两厢)</span></h5>
 								<div class="cart-ope">
 									<p><span class="price">￥96.0</span></p>
-									<p class="num-ope"><i class="iconfont minus">&#xe608;</i><input type="text" value="1" class="num"><i class="iconfont add">&#xe607;</i></p>
-									<p><i class="iconfont">&#xe605;</i></p>
+									<p class="num-ope"><i class="iconfont minus">&#xe608;</i><input type="text" data-stock="5" data-price="96.0" value="1" class="num"><i class="iconfont add">&#xe607;</i></p>
+									<p><i class="iconfont del">&#xe605;</i></p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="guarantee">
+				<div class="guarantee" id="guarantee">
 					<p><i class="iconfont">&#xe618;</i>正品保证，象盟特卖全场满88包邮。</p>
 				</div>
 			</div>
 		</div>
 		<div class="checkout">
 			<p class="total-price"><span>总计</span><em id="total">￥237.00</em></p>
-			<p class="total-btn"><a href="/weixin/views/pay.html">去结算</a></p>
+			<p class="total-btn"><a href="javascript:void(0);" data-total="0" id="checkout">去结算</a></p>
 		</div>
 		<!-- content end-->
 
@@ -95,5 +96,6 @@
 		<script src="/weixin/c/lib/hammer.js"></script>
 		<script src="/weixin/c/lib/require.js"></script>
 		<script src="/weixin/c/config/main.js"></script>
+		<script src="/weixin/c/initLoad/cart.js"></script>
 	</body>
 </html>

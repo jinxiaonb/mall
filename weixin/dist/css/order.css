@@ -1,10 +1,14 @@
 body{
 	background-color: #f2f2f2;
 }
+.t-tip{
+	color: #f00;
+}
 .content{
 	margin-top: 36px;
 	position: relative;
 }
+
 .order{
 }
 .c-order{

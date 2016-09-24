@@ -1,1 +1,45 @@
-cart.json
+{
+	"result": true,
+	"total": "1152.00",
+	"cart": [{
+		"id": "1",
+		"title": "哥蓝V+儿童牛奶草莓味200ML*12",
+		"specsid": "21",
+		"spec1": "黑色",
+		"spec2": "两厢",
+		"price": "96",
+		"num": "1",
+		"stock": "1",
+		"img": "/weixin/images/slide2/1.jpg"
+	}, {
+		"id": "2",
+		"title": "哥蓝V+儿童牛奶草莓味200ML*12",
+		"specsid": "22",
+		"spec1": "白色",
+		"spec2": "两厢",
+		"price": "96.4",
+		"num": "2",
+		"stock": "5",
+		"img": "/weixin/images/slide2/2.jpg"
+	}, {
+		"id": "3",
+		"title": "哥蓝V+儿童牛奶草莓味200ML*12",
+		"specsid": "22",
+		"spec1": "红色",
+		"spec2": "三厢",
+		"price": "96.0",
+		"num": "3",
+		"stock": "4",
+		"img": "/weixin/images/slide2/3.jpg"
+	}, {
+		"id": "4",
+		"title": "哥蓝V+儿童牛奶草莓味200ML*12",
+		"specsid": "24",
+		"spec1": "红色",
+		"spec2": "两厢",
+		"price": "96.0",
+		"num": "4",
+		"stock": "6",
+		"img": "/weixin/images/slide2/4.jpg"
+	}]
+}
