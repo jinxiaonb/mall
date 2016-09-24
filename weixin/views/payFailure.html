@@ -26,31 +26,56 @@
 		<title>象 盟</title>
 		<link rel="stylesheet" href="/weixin/dist/css/normalize.css">
 		<link rel="stylesheet" href="/weixin/dist/css/footer.css">
-		<link rel="stylesheet" href="/weixin/dist/css/person/apply.css">
+		<link rel="stylesheet" href="/weixin/dist/css/headerOrder.css">
+		<link rel="stylesheet" href="/weixin/dist/css/payFailure.css">
 	</head>
 	<body>
 
+
+		<!-- header -->
+		
 		<!-- content start-->
 		<div class="content">
-			<div class="form">
-				<div class="img"><img src="/weixin/images/qr.png" alt=""></div>
-				<p class="t-center protocal"><input type="checkbox" checked="checked" id="protocal"><label for="protocal">我已阅读并同意</label><a href="protocal.html">《推广合作协议》</a></p>
-				<p class="btn"><a href="javascript:void(0);" class="selected">申请成为推广达人</a></p>
-				<p class="rule t-center"><a href="rule.html">规则说明&gt;</a></p>
+			<div class="order">
+				<div class="c-order all-order ">
+					<div class="l-order pay-success hidden">
+						<h2><i class="iconfont">&#xe618;</i>支付成功</h2>
+					</div>
+					<div class="l-order pay-failure">
+						<h3><i class="iconfont">&#xe609;</i>付款失败</h3>
+						<h4><i class="iconfont">&#xe606;</i>请尽快提交订单，否则商品可能会被抢完。</h4>
+						<div class="order-list">
+							<p class="overflow"><span class="f-left">订单编号</span><em class="f-right">34732152093185375</em></p>
+							<p class="overflow"><span class="f-left">交易时间</span><em class="f-right">2016-09-23 09:04:39</em></p>
+							<p class="overflow"><span class="f-left">支付方式</span><em class="f-right">微信支付</em></p>
+							<p class="overflow"><span class="f-left">支付金额</span><em class="f-right">￥149</em></p>
+						</div>
+						<div class="pay-status"><a href="order.html">查看订单</a><a href="/weixin/index.html">回首页</a></div>
+						<div class="tip">
+							<h3>象盟安全提醒</h3>
+							<p>1、下单后通过<em>短信、qq、电话、微信给你发送链接办理退款的都是骗子</em>!</p>
+							<p>2、象盟不存在<em>系统升级、订单异常</em>等问题，谨防<em>假冒客服</em>诈骗！</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="c-order all-order">all</div>
+				<div class="c-order wait-pay">pay</div>
+				<div class="c-order wait-send">send</div>
+				<div class="c-order wait-receive">receive</div>
+				<div class="c-order order-success">success</div> -->
 			</div>
-			
 		</div>
-		
 		<!-- content end-->
+
 
 		<!-- footer start -->
 		<!-- <div id="footer">
 			<ul>
-				<li><a href="/"><i class="iconfont">&#xe600;</i><span>商城首页</span></a></li>
-				<li><a href="/views/brand.html"><i class="iconfont">&#xe604;</i><span>品牌馆</span></a></li>
+				<li><a href="/index.html"><i class="iconfont">&#xe600;</i><span>商城首页</span></a></li>
+				<li><a href="/views/category.html"><i class="iconfont">&#xe604;</i><span>分类</span></a></li>
 				<li><a href="/views/cart.html"><i class="iconfont">&#xe601;</i><span>购物车</span></a></li>
-				<li><a href="/views/order.html"><i class="iconfont">&#xe602;</i><span>我的订单</span></a></li>
-				<li class="selected"><a href="/views/person.html"><i class="iconfont">&#xe603;</i><span>个人中心</span></a></li>
+				<li class="selected"><a href="/views/order.html"><i class="iconfont">&#xe602;</i><span>我的订单</span></a></li>
+				<li><a href="/views/person.html"><i class="iconfont">&#xe603;</i><span>个人中心</span></a></li>
 			</ul>
 		</div> -->
 		<!-- footer end -->
@@ -59,14 +84,5 @@
 		<script src="/weixin/c/lib/hammer.js"></script>
 		<script src="/weixin/c/lib/require.js"></script>
 		<script src="/weixin/c/config/main.js"></script>
-		<script>
-			(function(){
-				var test = {
-					init:function(){
-						console.log("init");
-					}()
-				}
-			})();
-		</script>
 	</body>
 </html>

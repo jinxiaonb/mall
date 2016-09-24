@@ -57,7 +57,7 @@
 .list-index{
 	margin-bottom: 0px;
 	width: 16rem;
-	height: 19rem;
+	height: 12rem;
 	border-bottom: 1px solid #333;
 }
 .list-index .title{
@@ -67,7 +67,7 @@
 }
 .list-index img{
 	width: 16rem;
-	height: 16rem;
+	height: 9rem;
 }
 .info{
 	height: 2rem;

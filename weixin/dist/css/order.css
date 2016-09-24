@@ -1,5 +1,7 @@
+body{
+	background-color: #f2f2f2;
+}
 .content{
-	background-color: #efefef;
 	margin-top: 36px;
 	position: relative;
 }
@@ -7,6 +9,22 @@
 }
 .c-order{
 	margin-bottom: 80px;
+	position: relative;
+	overflow: hidden;
+}
+.none-order{
+	position: relative;
+	margin-top: 4rem;
+}
+.none-order p {
+    margin-bottom: 16px;
+    font-size: 0.8rem;
+    color: #999;
+    text-align: center;
+}
+.none-order i {
+    font-size: 3rem;
+    color: #999;
 }
 .l-order{
 	color: #666;

@@ -4,6 +4,8 @@ define(['slidefocus'], function(slidefocus) {
 		slideShow(data.slide);
 	}
 
+	
+
 	function slideShow(data) {
 		//console.log(data);
 		var _len = data.length,

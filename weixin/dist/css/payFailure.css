@@ -1,0 +1,74 @@
+body{
+	background-color: #f2f2f2;
+}
+.overflow{
+	overflow:hidden;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
+.l-order{
+	background-color: #fff;
+}
+.l-order h3,.l-order h4{
+	font-weight: normal;
+	font-size: 0.68rem;
+	background-color: #f2f2f2;
+	line-height: 45px;
+	padding: 0 10px;
+}
+.l-order h4{
+	border-top: 1px solid #dedede;
+	font-size: 0.6rem;
+	line-height: 35px;
+}
+.l-order i{
+	margin-right: 4px;
+}
+.pay-success h2{
+	font-size: 0.8rem;
+	line-height: 60px;
+	padding-left: 10px;
+	font-weight: normal;
+}
+.pay-success i{
+	color: #14d212;
+	font-size: 1.2rem;
+}
+.order-list p{
+	padding: 0 10px;
+	line-height: 2rem;
+	font-size: 0.6rem;
+	border-bottom: 1px solid #dedede;
+}
+
+.pay-status{
+	text-align: center;
+	line-height: 80px;
+	font-size: 0.68rem;
+}
+.pay-status a{
+	color: #666;
+	padding: 8px 12px;
+	border: 1px solid #dedede;
+	border-radius: 4px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+.tip{
+	font-size: 0.68rem;
+	font-weight: normal;
+	padding: 0 10px;
+	margin-top: 30px;
+	background-color: #f2f2f2;
+}
+.tip p{
+	font-size: 0.6rem;
+	line-height: 24px;
+}
+.tip em{
+	color: #f00;
+}

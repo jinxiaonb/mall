@@ -9,11 +9,14 @@ require(['JURL', 'CDetail', 'BDetail'], function(JURL, CDetail, BDetail) {
 
 
 	CDetail.initData({
-		url: "/weixin/c/json/slide.json"
+		url: "/weixin/c/json/slide.json",
+		id: _url.id,
+		itemid: _url.itemid
 	}, BDetail.initSlide);
 
 	CDetail.initData({
-		url: "/weixin/c/json/specs.json"
+		url: "/weixin/c/json/specs.json",
+		id: _url.id
 	}, BDetail.initSpecs);
 
 	CDetail.initEvent();

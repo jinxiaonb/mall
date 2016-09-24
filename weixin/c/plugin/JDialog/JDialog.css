@@ -51,6 +51,13 @@
 	text-align: center;
 	line-height: 80px;
 }
+.JDialog-tip{
+	margin-top: 1.5rem;
+	line-height: 24px;
+	font-size: 0.6rem;
+	color: #666;
+	padding: 0 20px;
+}
 .JDialog-btn{
 	text-align: center;
 	margin-top: 20px;

@@ -23,7 +23,7 @@
 	    <meta name="author" content="jinxiao, 315232021@163.com"/>
 	    <!-- 搜索引擎抓取 -->
 	    <meta name="robots" content="index,follow"/>
-		<title>XIANG MENG</title>
+		<title>象 盟</title>
 		<link rel="stylesheet" href="/weixin/dist/css/normalize.css">
 		<link rel="stylesheet" href="/weixin/dist/css/footer.css">
 		<link rel="stylesheet" href="/weixin/dist/css/headerOrder.css">
@@ -35,19 +35,22 @@
 		<!-- header -->
 		<div id="header-order">
 			<ul>
-				<li class="selected"><a href="#">全部</a></li>
-				<li><a href="#">待付款</a></li>
-				<li><a href="#">待发货</a></li>
-				<li><a href="#">待收货</a></li>
-				<li><a href="#">交易成功</a></li>
+				<li data-tab="tab1" class="selected"><a href="#">全部</a></li>
+				<li data-tab="tab2"><a href="#">待付款</a></li>
+				<li data-tab="tab3"><a href="#">待发货</a></li>
+				<li data-tab="tab4"><a href="#">待收货</a></li>
+				<li data-tab="tab5"><a href="#">交易成功</a></li>
 			</ul>
 		</div>
 		
 		<!-- content start-->
 		<div class="content">
 			<div class="order">
-				<div class="c-order all-order ">
-
+				<div class="c-order all-order tab1">
+					<div class="none-order hidden">
+						<p><i class="iconfont">&#xe602;</i></p>
+						<p>暂无订单</p>
+					</div>
 					<div class="l-order">
 						<div class="l-status">
 							<div class="order-status"><em>待付款</em><!-- <em>待发货</em><em>待收货</em><em>交易成功</em><em>已取消</em> <--><span>2016-08-29 11:45:52</span></div>
@@ -127,6 +130,59 @@
 						<div class="l-status">
 							<div class="order-status"><em>已取消</em><!-- <em>待发货</em><em>待收货</em><em>交易成功</em><em>已取消</em> <--><span>2016-08-29 11:45:52</span></div>
 						</div>
+						<div class="order-goods">
+							<div class="order-img"><a href="/weixin/views/detail.html"><img src="/weixin/images/cart/cart.jpg" alt=""></a></div>
+							<div class="order-info">
+								<p><em>哥蓝V+儿童牛奶草莓味200ML*12</em><span>￥43.0</span></p>
+								<p class=""><em>规格：黑色 两厢</em><span>x1</span></p>
+							</div>
+						</div>
+						<div class="order-checkout">
+							<p class="total-price"><span>总计:</span><em class="total">￥237.00</em></p>
+							<p class="total-btn hidden"><a href="#" class="cancel">取消</a><a href="#" class="checkout" data-total="237.00">去付款</a></p>
+						</div>
+					</div>
+
+				</div>
+				<!-- <div class="c-order all-order">all</div> -->
+				<div class="c-order wait-pay tab2 hidden">
+					<div class="none-order hidden">
+						<p><i class="iconfont">&#xe602;</i></p>
+						<p>暂无订单</p>
+					</div>
+					<div class="l-order">
+						<div class="l-status">
+							<div class="order-status"><em>待付款</em><!-- <em>待发货</em><em>待收货</em><em>交易成功</em><em>已取消</em> <--><span>2016-08-29 11:45:52</span></div>
+						</div>
+						<a href="/weixin/views/orderDetail.html"><div class="order-goods">
+							<div class="order-img"><img src="/weixin/images/cart/cart.jpg" alt=""></div>
+							<div class="order-info">
+								<p><em>哥蓝V+儿童牛奶草莓味200ML*12</em><span>￥43.0</span></p>
+								<p class=""><em>规格:黑色 两厢</em><span>x1</span></p>
+							</div>
+						</div>
+						<div class="order-goods">
+							<div class="order-img"><img src="/weixin/images/cart/cart.jpg" alt=""></div>
+							<div class="order-info">
+								<p><em>哥蓝V+儿童牛奶草莓味200ML*12</em><span>￥43.0</span></p>
+								<p class=""><em>规格:黑色 两厢</em><span>x1</span></p>
+							</div>
+						</div></a>
+						<div class="order-checkout">
+							<p class="total-price"><span>总计:</span><em class="total">￥237.00</em></p>
+							<p class="total-btn"><a href="payFailure.html" class="cancel">取消</a><a href="#" class="checkout" data-total="237.00">去付款</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="c-order wait-send tab3 hidden">
+					<div class="none-order hidden">
+						<p><i class="iconfont">&#xe602;</i></p>
+						<p>暂无订单</p>
+					</div>
+					<div class="l-order">
+						<div class="l-status">
+							<div class="order-status"><em>待发货</em><!-- <em>待发货</em><em>待收货</em><em>交易成功</em><em>已取消</em> <--><span>2016-08-29 11:45:52</span></div>
+						</div>
 						<a href="/weixin/views/orderDetail.html"><div class="order-goods">
 							<div class="order-img"><img src="/weixin/images/cart/cart.jpg" alt=""></div>
 							<div class="order-info">
@@ -139,13 +195,19 @@
 							<p class="total-btn hidden"><a href="#" class="cancel">取消</a><a href="#" class="checkout" data-total="237.00">去付款</a></p>
 						</div>
 					</div>
-
 				</div>
-				<!-- <div class="c-order all-order">all</div>
-				<div class="c-order wait-pay">pay</div>
-				<div class="c-order wait-send">send</div>
-				<div class="c-order wait-receive">receive</div>
-				<div class="c-order order-success">success</div> -->
+				<div class="c-order wait-receive tab4 hidden">
+					<div class="none-order">
+						<p><i class="iconfont">&#xe602;</i></p>
+						<p>暂无订单</p>
+					</div>
+				</div>
+				<div class="c-order order-success tab5 hidden">
+					<div class="none-order">
+						<p><i class="iconfont">&#xe602;</i></p>
+						<p>暂无订单</p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!-- content end-->
@@ -167,5 +229,6 @@
 		<script src="/weixin/c/lib/hammer.js"></script>
 		<script src="/weixin/c/lib/require.js"></script>
 		<script src="/weixin/c/config/main.js"></script>
+		<script src="/weixin/c/initLoad/order.js"></script>
 	</body>
 </html>

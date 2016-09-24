@@ -27,7 +27,7 @@ define(['slidefocus'], function(slidefocus) {
 			$('#sliderBox').html(str);
 			slidefocus.slidefocus.init({
 				id: "#sliderBox",
-				height: "75%"
+				height: "56.25%"
 			});
 		}
 	}
@@ -63,7 +63,7 @@ define(['slidefocus'], function(slidefocus) {
 		}
 
 		$(".index-list .scroller-content").append(str);
-		
+
 
 		// if (tab == "index") {
 

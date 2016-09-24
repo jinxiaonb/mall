@@ -26,47 +26,59 @@
 		<title>象 盟</title>
 		<link rel="stylesheet" href="/weixin/dist/css/normalize.css">
 		<link rel="stylesheet" href="/weixin/dist/css/footer.css">
-		<link rel="stylesheet" href="/weixin/dist/css/person/apply.css">
+		<link rel="stylesheet" href="/weixin/dist/css/headerOrder.css">
+		<link rel="stylesheet" href="/weixin/dist/css/orderRefundApply.css">
 	</head>
 	<body>
 
+
+		<!-- header -->
+		
 		<!-- content start-->
 		<div class="content">
-			<div class="form">
-				<div class="img"><img src="/weixin/images/qr.png" alt=""></div>
-				<p class="t-center protocal"><input type="checkbox" checked="checked" id="protocal"><label for="protocal">我已阅读并同意</label><a href="protocal.html">《推广合作协议》</a></p>
-				<p class="btn"><a href="javascript:void(0);" class="selected">申请成为推广达人</a></p>
-				<p class="rule t-center"><a href="rule.html">规则说明&gt;</a></p>
+			<div class="order">
+				<div class="c-order all-order ">
+					<div class="l-order">
+						<div class="refund">
+							<h4><i class="iconfont">&#xe61a;</i>待发货</h4>
+							<p>订单编号：160815625804524</p>
+							<p>2016-08-15 17:23:17</p>
+						</div>
+						<h3>商品信息</h3>
+						<div class="order-goods">
+							<div class="order-img"><img src="/weixin/images/cart/cart.jpg" alt=""></div>
+							<div class="order-info">
+								<p class="title">哥蓝V+儿童牛奶草莓奶草莓奶草莓味200ML*12 规格:大瓶 蓝色装</p>
+								<p class="">合计:<em>￥149</em><span>(￥149x1)</span></p>
+							</div>
+						</div>
+						<div class="order-list">
+							<p class="overflow"><span class="f-left">退款数量</span><em class="f-right">1</em></p>
+							<p class="overflow"><span class="f-left">退款金额</span><em class="f-right">149</em></p>
+							<p class="overflow"><span class="f-left">退款类型</span><em class="f-right"><a href="javascript:void(0);" class="onlyone">仅退款</a><a href="javascript:void(0);" class="onlytwo">退款并退货</a></em></p>
+							<p class="overflow"><span class="f-left">退款原因</span><em class="f-right"><select name="" id=""><option value="">买多了</option><option value="">买错了</option></select></em></p>
+							<p class="overflow"><span class="f-left">退款说明(非必填项)</span><em class="f-right"><input type="text"></em></p>
+							<p class="overflow"><span class="f-left">退款账户</span><em class="f-right">原支付账户</em></p>
+							
+						</div>
+					</div>
+					<div class="btn">
+						<p><a href="javascript:void(0);">申请退款</a></p>
+					</div>
+				</div>
+				<!-- <div class="c-order all-order">all</div>
+				<div class="c-order wait-pay">pay</div>
+				<div class="c-order wait-send">send</div>
+				<div class="c-order wait-receive">receive</div>
+				<div class="c-order order-success">success</div> -->
 			</div>
-			
 		</div>
-		
 		<!-- content end-->
 
-		<!-- footer start -->
-		<!-- <div id="footer">
-			<ul>
-				<li><a href="/"><i class="iconfont">&#xe600;</i><span>商城首页</span></a></li>
-				<li><a href="/views/brand.html"><i class="iconfont">&#xe604;</i><span>品牌馆</span></a></li>
-				<li><a href="/views/cart.html"><i class="iconfont">&#xe601;</i><span>购物车</span></a></li>
-				<li><a href="/views/order.html"><i class="iconfont">&#xe602;</i><span>我的订单</span></a></li>
-				<li class="selected"><a href="/views/person.html"><i class="iconfont">&#xe603;</i><span>个人中心</span></a></li>
-			</ul>
-		</div> -->
-		<!-- footer end -->
 		<script src="/weixin/c/common/init.js"></script>
 		<script src="/weixin/c/lib/jquery.min.js"></script>
 		<script src="/weixin/c/lib/hammer.js"></script>
 		<script src="/weixin/c/lib/require.js"></script>
 		<script src="/weixin/c/config/main.js"></script>
-		<script>
-			(function(){
-				var test = {
-					init:function(){
-						console.log("init");
-					}()
-				}
-			})();
-		</script>
 	</body>
 </html>

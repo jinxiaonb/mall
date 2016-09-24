@@ -27,66 +27,52 @@
 		<link rel="stylesheet" href="/weixin/dist/css/normalize.css">
 		<link rel="stylesheet" href="/weixin/dist/css/footer.css">
 		<link rel="stylesheet" href="/weixin/dist/css/headerOrder.css">
-		<link rel="stylesheet" href="/weixin/dist/css/pay.css">
+		<link rel="stylesheet" href="/weixin/dist/css/orderRefund.css">
 	</head>
 	<body>
+
+
+		<!-- header -->
+		
 		<!-- content start-->
 		<div class="content">
 			<div class="order">
 				<div class="c-order all-order ">
 					<div class="l-order">
-						<div id="addressAdd" class="address overflow hidden">
-							<a href="/weixin/views/person/addressAdd.html" class="overflow newAdd">
-							<div class="detail"><i class="iconfont">&#xe607;</i>新增收货地址<i class="iconfont gt">&#xe60e;</i></div>
-							</a>
+						<h4><i class="iconfont">&#xe606;</i>已收到您的申请，象盟将在xx:xx:xx内为您处理</h4>
+						<div class="refund">
+							<h4><i class="iconfont">&#xe60c;</i>申请中/退款成功</h4>
+							<p>订单编号：160815625804524</p>
+							<p>成功时间：2016-08-15 17:23:17</p>
+							<p>订单状态：待发货</p>
 						</div>
-						<div id="address" class="address overflow">
-							<a href="/weixin/views/person/address.html" class="overflow defaultAdd">
-							<i class="iconfont f-left">&#xe612;</i>
-							<div class="detail f-left">
-								<p><span>收货人：</span><em>金霄 15158133856</em></p>
-								<p class="c-detail overflow"><span class="f-left">收货地址：</span><em class="f-right">浙江省杭州市西湖区浙江省杭州市西湖区尚坤大夏322</em></p>
-							</div>
-							<i class="iconfont f-left">&#xe60e;</i>
-							</a>
-							
-						</div>
-						<h3>订单1 <span>品牌商 杭州 发货</span></h3>
+						<h3>退款信息</h3>
 						<div class="order-goods">
 							<div class="order-img"><img src="/weixin/images/cart/cart.jpg" alt=""></div>
 							<div class="order-info">
-								<p><em>哥蓝V+儿童牛奶草莓味200ML*12</em><span>￥128.0</span></p>
-								<p class=""><em></em><span>x1</span></p>
+								<p class="title">哥蓝V+儿童牛奶草莓奶草莓奶草莓味200ML*12 规格:大瓶 蓝色装</p>
+								<p class="">合计:<em>￥149</em><span>(￥149x1)</span></p>
 							</div>
 						</div>
-						<div class="order-checkout">
-							<p class="total-price overflow"><span class="f-left">发货方式</span><em class="total f-right">快递：0元</em></p>
-							<p class="total-price overflow"><span class="f-left">订单总计</span><em class="total f-right">￥128.00</em></p>
-						</div>
-					</div>
-					<div class="pay-choice">
-						<h3 class="overflow"><span class="f-left">选择支付方式</span><em class="f-right">合计金额:<i>￥128</i></em></h3>
-						<div class="pay-list">
-							<div class="c-pay">
-								<div class="overflow">
-									<p class="f-left"><span><i class="iconfont">&#xe613;</i>微信支付</span></p>
-									<p class="f-right"><input type="radio" class="hidden" checked="checked"><i class="iconfont">&#xe616;</i>
-									</p>
-								</div>
-							</div>
+						<div class="order-list">
+							<p class="overflow"><span class="f-left">退款数量</span><em class="f-right">1</em></p>
+							<p class="overflow"><span class="f-left">退款金额</span><em class="f-right">149</em></p>
+							<p class="overflow"><span class="f-left">退款需求</span><em class="f-right">仅退款</em></p>
+							<p class="overflow"><span class="f-left">退款原因</span><em class="f-right">买错了</em></p>
+							<p class="overflow"><span class="f-left">退款说明</span><em class="f-right">想嘻嘻嘻嘻嘻嘻</em></p>
+							<p class="overflow"><span class="f-left">退款账户</span><em class="f-right">原支付账户</em></p>
 						</div>
 					</div>
 				</div>
+				<!-- <div class="c-order all-order">all</div>
+				<div class="c-order wait-pay">pay</div>
+				<div class="c-order wait-send">send</div>
+				<div class="c-order wait-receive">receive</div>
+				<div class="c-order order-success">success</div> -->
 			</div>
 		</div>
 		<!-- content end-->
 
-		<div class="checkout">
-			<div class="pay-btn overflow">
-				<p><span class="f-left">微信支付</span></p>
-				<p class="f-right"><em id="total">总计￥237.00</em><a href="#">去付款</a></p>
-			</div>
-		</div>
 
 		<!-- footer start -->
 		<!-- <div id="footer">

@@ -33,33 +33,18 @@ body{
 	padding: 0 10px;
 	background-color: #ddd;
 }
-.l-order h3 span{
-	font-size: 0.6rem;
-	font-weight: normal;
-	margin-left: 8px;
-}
-.address{
-	padding: 0 10px;
-	border-bottom: 1px solid #dedede;
-	margin-bottom: 10px;
-}
-.address h4{
-	line-height: 35px;
-	border-bottom: 1px solid #dedede;
-}
-.address h4 i{
-	font-size: 0.68rem;
-	margin-right: 4px;
-}
-.address p{
-	line-height: 28px;
-	padding-left: 20px;
-}
 .order-goods{
+	display: -moz-box;
+	display: -o-box;
+	display: -webkit-box;
+	display: box;
 	position: relative;
 }
 .order-img{
 	padding: 10px;
+	-moz-box-flex:1;
+	-o-box-flex:1;
+	-webkit-box-flex: 1;
 	width: 3.5rem;
 	height: 3rem;
 }
@@ -68,29 +53,16 @@ body{
 	height: 3rem;
 }
 .order-info{
-	width: 11.4rem;
-	color: #333;
+	-moz-box-flex:7;
+	-o-box-flex:7;
+	-webkit-box-flex: 7;
 }
 .order-info p{
 	line-height: 24px;
 	width: 11rem;
-	margin-top: 8px;
 }
 .order-info .title{
-	width: 9rem;
-}
-.order-info .pn{
-	width: 2rem;
-	margin-right: 4px;
-}
-.order-info .pn em,.order-info .pn span{
-	position: relative;
-	display: inline-block;
-	width: 2rem;
-	text-align: right;
-}
-.order-info .pn span{
-	color: #999;
+	margin-top: 8px;
 }
 .order-info em{
 	display: inline-block;
@@ -98,17 +70,7 @@ body{
 .order-info span{
 	text-align: right;
 }
-.order-status{
-	padding: 0 10px;
-	height: 40px;
-	line-height: 40px;
-	text-align: right;
-}
-.order-status a{
-	color: #f00;
-	border: 1px solid #f00;
-	padding: 4px 8px;
-}
+
 .order-list p{
 	padding: 0 10px;
 	line-height: 2rem;
