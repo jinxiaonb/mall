@@ -7,6 +7,7 @@ require(['JURL', 'CDetail', 'BDetail'], function(JURL, CDetail, BDetail) {
 	var _url = JURL.localSearch()._search; //_url对象为{id:1,item:34}
 	console.log(_url);
 
+	$("#confirm").attr("data-id", _url.id);
 
 	CDetail.initData({
 		url: "/weixin/c/json/slide.json",

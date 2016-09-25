@@ -1,4 +1,5 @@
-require(['JURL', 'COrder', 'BOrder'], function(JURL, COrder, BOrder) {
+require(['footer', 'JURL', 'COrder', 'BOrder'], function(footer, JURL, COrder, BOrder) {
+	footer.setActiveNav("order");
 
 	COrder.initData({
 		url: "/weixin/c/json/slide2.json"

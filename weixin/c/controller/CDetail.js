@@ -60,11 +60,13 @@ define(['reqAjax', 'JDialog'], function(reqAjax, JDialog) {
 			var _this = $(this),
 				_specs = $("#specs"),
 				_id = _this.attr("data-id"),
+				_specsid = _this.attr("data-specsid"),
 				_specs1 = $("#specs1 em.selected").text(),
 				_specs2 = $("#specs2 em.selected").text(),
 				_num = $("#num").val(),
 				para = {
 					id: _id,
+					specsid: _specsid,
 					specs1: _specs1,
 					specs2: _specs2,
 					num: _num

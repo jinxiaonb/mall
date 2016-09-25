@@ -1,5 +1,5 @@
-require(['JURL', 'CIndex', 'BIndex'], function(JURL, CIndex, BIndex) {
-
+require(['footer', 'JURL', 'CIndex', 'BIndex'], function(footer, JURL, CIndex, BIndex) {
+	footer.setActiveNav("index");
 	//console.log(JURL.localSearch());
 	//init.init();
 	//

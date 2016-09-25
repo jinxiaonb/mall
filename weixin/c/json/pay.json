@@ -1,0 +1,35 @@
+{
+	"result": true,
+	"express": "0",
+	"total": "1152.00",
+	"address": true,
+	"addresspara": {
+		"province": "浙江省",
+		"city": "杭州市",
+		"detail": "西湖区古墩路尚坤大夏322",
+		"name": "金霄",
+		"phone": "15158133856",
+		"id": "1"
+	},
+	"pay": [{
+		"id": "1",
+		"title": "哥蓝V+儿童牛奶草莓味200ML*12",
+		"specsid": "21",
+		"spec1": "黑色",
+		"spec2": "两厢",
+		"price": "96",
+		"num": "1",
+		"stock": "1",
+		"img": "/weixin/images/slide2/1.jpg"
+	}, {
+		"id": "2",
+		"title": "哥蓝V+儿童牛奶草莓味200ML*12",
+		"specsid": "22",
+		"spec1": "白色",
+		"spec2": "两厢",
+		"price": "96.4",
+		"num": "2",
+		"stock": "5",
+		"img": "/weixin/images/slide2/2.jpg"
+	}]
+}

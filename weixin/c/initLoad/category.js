@@ -1,4 +1,6 @@
-require(['JURL', 'CCategory', 'iscrollss'], function(JURL, CCategory, iscrollss) {
+require(['footer', 'JURL', 'CCategory', 'BCategory', 'iscrollss'], function(footer, JURL, CCategory, BCategory, iscrollss) {
+
+	footer.setActiveNav("category");
 
 	CCategory.initEvent();
 	CCategory.initMore();

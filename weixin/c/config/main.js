@@ -1,6 +1,8 @@
 require.config({
 	baseUrl: "/weixin/c",
 	paths: {
+		"footer": "common/footer",
+
 		"BIndex": "bean/BIndex",
 		"CIndex": "controller/CIndex",
 		"BDetail": "bean/BDetail",
@@ -22,6 +24,10 @@ require.config({
 
 		"BPerson": "bean/BPerson",
 		"CPerson": "controller/CPerson",
+		"BAddress": "bean/BAddress",
+		"CAddress": "controller/CAddress",
+		"BAddressAdd": "bean/BAddressAdd",
+		"CAddressAdd": "controller/CAddressAdd",
 
 		"jquery": "lib/jquery",
 		"slidefocus": "plugin/slidefocus",

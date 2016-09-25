@@ -1,5 +1,6 @@
-require(['JURL', 'CPerson', 'BPerson'], function(JURL, CPerson, BPerson) {
+require(['footer', 'JURL', 'CPerson', 'BPerson'], function(footer, JURL, CPerson, BPerson) {
 
+	footer.setActiveNav("person");
 	//console.log(JURL.localSearch());
 	//init.init();
 	//

@@ -1,0 +1,14 @@
+{
+	"result": true,
+	"address": [{
+		"id": "1",
+		"name": "金霄",
+		"phone": "15158133856",
+		"pid": "1",
+		"province": "浙江省",
+		"cid": "11",
+		"city": "杭州市",
+		"detail": "西湖区留和路288号",
+		"isdefault": "0"
+	}]
+}

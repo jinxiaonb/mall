@@ -1,0 +1,28 @@
+{
+	"result": true,
+	"address": [{
+		"id": "1",
+		"name": "金霄",
+		"phone": "15158133856",
+		"province": "浙江省",
+		"city": "杭州市",
+		"detail": "西湖区留和路288号",
+		"isdefault": "0"
+	}, {
+		"id": "2",
+		"name": "金霄",
+		"phone": "15158133856",
+		"province": "浙江省",
+		"city": "杭州市",
+		"detail": "西湖区尚坤大夏322",
+		"isdefault": "1"
+	}, {
+		"id": "3",
+		"name": "金霄",
+		"phone": "15158133856",
+		"province": "浙江省",
+		"city": "杭州市",
+		"detail": "西湖区翰墨香林45幢1单元201室",
+		"isdefault": "0"
+	}]
+}

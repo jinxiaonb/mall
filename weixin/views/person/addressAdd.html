@@ -35,43 +35,41 @@
 			<div class="contact">
 				<div class="c-li">
 					<strong><i>*</i>收货人:</strong>
-					<input type="text" value="" placeholder="请使用真实姓名">
+					<input type="text" value="" id="name" placeholder="请使用真实姓名">
 				</div>
 				<div class="c-li">
 					<strong><i>*</i>手机号码:</strong>
-					<input type="text" value="" placeholder="请输入11位的手机号">
+					<input type="text" value="" id="phone" placeholder="请输入11位的手机号">
 				</div>
 				<div class="c-li">
 					<strong><i>*</i>所在省区:</strong>
-					<select name="" id="">
+					<select name="" id="province">
 						<option value="0">未选</option>
-						<option value="1">浙江</option>
 					</select>
 				</div>
 				<div class="c-li">
 					<strong><i>*</i>所在市区:</strong>
-					<select name="" id="">
+					<select name="" id="city">
 						<option value="0">未选</option>
-						<option value="1">杭州</option>
 					</select>
 				</div>
 				<div class="c-li">
 					<strong><i>*</i>详细地址:</strong>
-					<input type="text" value="" placeholder="请输入详细的地址">
+					<input type="text" value="" id="detail" placeholder="请输入详细的地址">
 				</div>
 				<div class="c-li">
 					<strong><i></i>身份证号:</strong>
-					<input type="text" value="" placeholder="">
+					<input type="text" value="" id="idcard" placeholder="">
 				</div>
 			</div>
 			<div class="set-default">
 				<div class="overflow">
 					<span class="f-left">设置为默认地址</span>
-					<p class="f-right"><i class="iconfont selected">&#xe616;</i></p>
+					<p class="f-right"><i class="iconfont isdefault" data-def="0">&#xe616;</i></p>
 				</div>
 			</div>
 			<div class="set-btn">
-				<a href="javascript:void(0);">保存</a>
+				<a href="javascript:void(0);" id="save" data-id="0">保存</a>
 			</div>
 		</div>
 		<!-- content end-->
@@ -82,14 +80,7 @@
 		<script src="/weixin/c/lib/hammer.js"></script>
 		<script src="/weixin/c/lib/require.js"></script>
 		<script src="/weixin/c/config/main.js"></script>
-		<script>
-			(function(){
-				var test = {
-					init:function(){
-						console.log("init");
-					}()
-				}
-			})();
-		</script>
+		<script src="/weixin/c/initLoad/addressAdd.js"></script>
+		
 	</body>
 </html>

@@ -76,6 +76,9 @@ body{
 	overflow: hidden;
 	position: relative;
 }
+.list a{
+	color: #999;
+}
 .list i{
 	position: relative;
 	margin-top: 1.4rem;
