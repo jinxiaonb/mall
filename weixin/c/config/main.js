@@ -24,6 +24,18 @@ require.config({
 
 		"BPerson": "bean/BPerson",
 		"CPerson": "controller/CPerson",
+		"BReward": "bean/person/BReward",
+		"CReward": "controller/person/CReward",
+		"BAtm": "bean/person/BAtm",
+		"CAtm": "controller/person/CAtm",
+		"BAtmhistory": "bean/person/BAtmhistory",
+		"CAtmhistory": "controller/person/CAtmhistory",
+		"BFans": "bean/person/BFans",
+		"CFans": "controller/person/CFans",
+		"BSales": "bean/person/BSales",
+		"CSales": "controller/person/CSales",
+
+
 		"BAddress": "bean/BAddress",
 		"CAddress": "controller/CAddress",
 		"BAddressAdd": "bean/BAddressAdd",

@@ -1,0 +1,24 @@
+{
+	"result": true,
+	"fans": [{
+		"id": "1",
+		"name": "金霄",
+		"img": "/weixin/images/goods/6401.jpg",
+		"time": "2016-08-19 10:35:36"
+	}, {
+		"id": "2",
+		"name": "金霄",
+		"img": "/weixin/images/goods/6402.jpg",
+		"time": "2016-08-19 10:35:36"
+	}, {
+		"id": "3",
+		"name": "金霄",
+		"img": "/weixin/images/goods/6403.jpg",
+		"time": "2016-08-19 10:35:36"
+	}, {
+		"id": "4",
+		"name": "金霄",
+		"img": "/weixin/images/goods/6404.jpg",
+		"time": "2016-08-19 10:35:36"
+	}]
+}

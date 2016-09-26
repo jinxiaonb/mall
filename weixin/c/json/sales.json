@@ -1,0 +1,34 @@
+{
+	"result": true,
+	"total": "223957.51",
+	"fansales": "3987662.76",
+	"sales": [{
+		"id": "1",
+		"orderid": "4324",
+		"money": "4.68",
+		"name": "金霄",
+		"img": "/weixin/images/goods/6401.jpg",
+		"time": "2016-08-19 10:35:36"
+	}, {
+		"id": "2",
+		"name": "金霄",
+		"orderid": "4323",
+		"money": "4.68",
+		"img": "/weixin/images/goods/6402.jpg",
+		"time": "2016-08-19 10:35:36"
+	}, {
+		"id": "3",
+		"name": "金霄",
+		"orderid": "4327",
+		"money": "4.68",
+		"img": "/weixin/images/goods/6403.jpg",
+		"time": "2016-08-19 10:35:36"
+	}, {
+		"id": "4",
+		"name": "金霄",
+		"orderid": "4325",
+		"money": "4.68",
+		"img": "/weixin/images/goods/6404.jpg",
+		"time": "2016-08-19 10:35:36"
+	}]
+}
