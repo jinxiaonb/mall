@@ -9,10 +9,17 @@ define(['reqAjax', 'JDialog'], function(reqAjax, JDialog) {
 	var initEvent = function() {
 		$(document).on("touchstart click", ".add-cart", function() {
 			var _this = $(this),
+				_status = _this.attr("data-status"),
+				_id = _this.attr("data-id"),
 				_specs = $("#specs");
+			console.log(_status == "0");
+			if (_status == "0") {
 
-			_specs.removeClass("hidden");
-			_specs.addClass("animated bouncelnUp");
+			} else {
+				_specs.removeClass("hidden");
+				_specs.addClass("animated bouncelnUp");
+			}
+
 		});
 
 		$(document).on("touchstart click", "#close", function() {
@@ -58,8 +65,10 @@ define(['reqAjax', 'JDialog'], function(reqAjax, JDialog) {
 
 		$(document).on("touchstart", "#confirm", function() {
 			var _this = $(this),
-				_specs = $("#specs"),
+				_status = _this.attr("data-status"),
 				_id = _this.attr("data-id"),
+
+				_specs = $("#specs"),
 				_specsid = _this.attr("data-specsid"),
 				_specs1 = $("#specs1 em.selected").text(),
 				_specs2 = $("#specs2 em.selected").text(),
@@ -71,7 +80,9 @@ define(['reqAjax', 'JDialog'], function(reqAjax, JDialog) {
 					specs2: _specs2,
 					num: _num
 				};
+
 			console.log(para);
+			return false;
 			$.ajax({
 				type: "get",
 				url: "/weixin/c/json/slide.json",

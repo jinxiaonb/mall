@@ -8,6 +8,7 @@ require(['JURL', 'CDetail', 'BDetail'], function(JURL, CDetail, BDetail) {
 	console.log(_url);
 
 	$("#confirm").attr("data-id", _url.id);
+	$(".add-cart").attr("data-id", _url.id);
 
 	CDetail.initData({
 		url: "/weixin/c/json/slide.json",

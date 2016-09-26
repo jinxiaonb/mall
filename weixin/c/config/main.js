@@ -30,6 +30,7 @@ require.config({
 		"CAddressAdd": "controller/CAddressAdd",
 
 		"jquery": "lib/jquery",
+		"city": "util/city",
 		"slidefocus": "plugin/slidefocus",
 		"reqAjax": "req/reqAjax",
 		"JValidate": "plugin/JValidate", //self plugin

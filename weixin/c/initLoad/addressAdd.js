@@ -1,15 +1,16 @@
-require(['JURL', 'CAddressAdd', 'BAddressAdd'], function(JURL, CAddressAdd, BAddressAdd) {
+require(['JURL', 'CAddressAdd', 'BAddressAdd', 'city'], function(JURL, CAddressAdd, BAddressAdd, city) {
 
 	var _url = JURL.localSearch()._search; //_url对象为{id:1,item:34}
+
 	//console.log(_url);
 	var para = {
 		url: "/weixin/c/json/addressAdd.json"
 	}
-
+	city.cityInit();
 	//初始化省区的数据
-	CAddressAdd.initData({
-		url: "/weixin/c/json/province.json"
-	}, BAddressAdd.initProvinceData);
+	// CAddressAdd.initData({
+	// 	url: "/weixin/c/json/province.json"
+	// }, BAddressAdd.initProvinceData);
 
 
 
@@ -18,9 +19,9 @@ require(['JURL', 'CAddressAdd', 'BAddressAdd'], function(JURL, CAddressAdd, BAdd
 		para.aid = _url.aid;
 
 		//初始化市区列表
-		CAddressAdd.initData({
-			url: "/weixin/c/json/city.json"
-		}, BAddressAdd.initCityData);
+		// CAddressAdd.initData({
+		// 	url: "/weixin/c/json/city.json"
+		// }, BAddressAdd.initCityData);
 
 		$("#save").attr("data-id", _url.aid);
 		//$(".isdefault").attr("data-daf", _url.aid);
