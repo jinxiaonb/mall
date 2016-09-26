@@ -1,0 +1,15 @@
+{
+	"result": true,
+	"person": {
+		"uid": "1",
+		"avator": "/weixin/images/goods/6401.jpg",
+		"name": "jinxiao",
+		"idcard": "12436544",
+		"total": "2583.00",
+		"reward": "125.65",
+		"fans": "123456",
+		"sales": "126778.65",
+		"rec": "象盟",
+		"isShare": true
+	}
+}

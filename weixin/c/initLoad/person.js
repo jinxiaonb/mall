@@ -5,7 +5,7 @@ require(['footer', 'JURL', 'CPerson', 'BPerson'], function(footer, JURL, CPerson
 	//init.init();
 	//
 	CPerson.initData({
-		url: "/weixin/c/json/slide2.json"
+		url: "/weixin/c/json/person.json"
 	}, BPerson.initData);
 
 	CPerson.initEvent();
