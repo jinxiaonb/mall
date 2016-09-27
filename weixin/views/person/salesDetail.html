@@ -33,27 +33,27 @@
 		<!-- content start-->
 		<div class="content">
 			<div class="form">
-				<h3 class="overflow"><span class="f-left">预计可提现金额</span><strong class="f-right">￥4.68</strong></h3>
+				<h3 class="overflow"><span class="f-left">预计可提现金额</span><strong class="f-right" id="money">￥4.68</strong></h3>
 				<p class="overflow">
-					<span class="f-left">订单号</span><em class="f-right">154835932454584</em>
+					<span class="f-left">订单号</span><em class="f-right" id="orderid">154835932454584</em>
 				</p>
 				<p class="overflow">
-					<span class="f-left">订单状态</span><em class="f-right">已付款</em>
+					<span class="f-left">订单状态</span><em class="f-right" id="status">已付款</em>
 				</p>
 				<p class="overflow">
-					<span class="f-left">下单时间</span><em class="f-right">2016-08-24 01:09:44</em>
+					<span class="f-left">下单时间</span><em class="f-right" id="time">2016-08-24 01:09:44</em>
 				</p>
 				<p class="overflow">
-					<span class="f-left">订单金额</span><em class="f-right">￥39.00</em>
+					<span class="f-left">订单金额</span><em class="f-right" id="total">￥39.00</em>
 				</p>
 				<p class="overflow">
-					<span class="f-left">粉丝昵称</span><em class="f-right">jinxiao</em>
+					<span class="f-left">粉丝昵称</span><em class="f-right" id="nickname">jinxiao</em>
 				</p>
 				<p class="overflow">
-					<span class="f-left">粉丝ID</span><em class="f-right">560668</em>
+					<span class="f-left">粉丝ID</span><em class="f-right" id="fansid">560668</em>
 				</p>
 				<p class="overflow">
-					<span class="f-left">备注</span><em class="f-right t-left">发大水发动机爱死了快递费就凉快的观点萨克管拉萨的空格就凉快第三</em>
+					<span class="f-left">备注</span><em class="f-right t-left" id="remark">发大水发动机爱死了快递费就凉快的观点萨克管拉萨的空格就凉快第三</em>
 				</p>
 			</div>
 			
@@ -61,17 +61,11 @@
 		
 		<!-- content end-->
 
-		<!-- footer start -->
-		<!-- <div id="footer">
-			<ul>
-				<li><a href="/"><i class="iconfont">&#xe600;</i><span>商城首页</span></a></li>
-				<li><a href="/views/brand.html"><i class="iconfont">&#xe604;</i><span>品牌馆</span></a></li>
-				<li><a href="/views/cart.html"><i class="iconfont">&#xe601;</i><span>购物车</span></a></li>
-				<li><a href="/views/order.html"><i class="iconfont">&#xe602;</i><span>我的订单</span></a></li>
-				<li class="selected"><a href="/views/person.html"><i class="iconfont">&#xe603;</i><span>个人中心</span></a></li>
-			</ul>
-		</div> -->
-		<!-- footer end -->
 		<script src="/weixin/c/common/init.js"></script>
+		<script src="/weixin/c/lib/jquery.min.js"></script>
+		<script src="/weixin/c/lib/hammer.js"></script>
+		<script src="/weixin/c/lib/require.js"></script>
+		<script src="/weixin/c/config/main.js"></script>
+		<script src="/weixin/c/initLoad/person/salesDetail.js"></script>
 	</body>
 </html>

@@ -2,10 +2,10 @@ define([], function() {
 
 	var initData = function(data) {
 		console.log(data);
-		initfans(data);
+		initsales(data);
 	}
 
-	function initfans(data) {
+	function initsales(data) {
 		if (data.result) {
 			var list = data.sales,
 				len = list.length,

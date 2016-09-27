@@ -34,6 +34,8 @@ require.config({
 		"CFans": "controller/person/CFans",
 		"BSales": "bean/person/BSales",
 		"CSales": "controller/person/CSales",
+		"BSalesDetail": "bean/person/BSalesDetail",
+		"CSalesDetail": "controller/person/CSalesDetail",
 
 
 		"BAddress": "bean/BAddress",
