@@ -22,17 +22,18 @@ define([], function() {
 			$("#username").text(name);
 			$("#idcard").text("ID:" + idcard);
 			$("#total").text("累计购物:￥" + total);
-			if (!isShare) {
-				$(".shareman").addClass("hidden");
-				$(".unshareman").removeClass("hidden");
-			} else {
-				$(".unshareman").addClass("hidden");
-				$(".shareman").removeClass("hidden");
-			}
+
+			// if (!isShare) {
+			// 	$(".shareman").addClass("hidden");
+			// 	$(".unshareman").removeClass("hidden");
+			// } else {
+			// 	$(".unshareman").addClass("hidden");
+			// 	$(".shareman").removeClass("hidden");
+			// }
 			$("#rec").text(rec);
-			$("#reward span").text(reward);
-			$("#fans span").text(fans);
-			$("#sales span").text(sales);
+			$("#reward span").text("￥" + reward);
+			$("#fans span").text(fans + "人");
+			$("#sales span").text("￥" + sales);
 		}
 	}
 

@@ -1,0 +1,39 @@
+.list{
+	margin: 0 0.5rem;
+}
+.list h4,.list h2{
+}
+.list h2{
+	font-size: 0.88rem;
+	text-align: center;
+	line-height: 60px;
+}
+.list h4{
+	font-size: 0.70rem;
+}
+.list input{
+	border: 1px solid #dedede;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	width: 95%;
+	color: #333;
+}
+.list div{
+	margin-top: 1.2rem;
+	font-size: 0.68rem;
+}
+.list p{
+	font-size: 0.68rem;
+	margin-top: 0.2rem;
+	color: #999;
+}
+
+.list a{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	text-align: center;
+	background-color: #333;
+	color: #fff;
+}

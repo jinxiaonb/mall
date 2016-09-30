@@ -46,26 +46,37 @@ body{
 	padding: 0 10px;
 }
 .desc .title{
-	line-height: 28px;
+	margin-top: 0.2rem;
+	font-size: 0.8rem;
 }
 .desc .subtitle{
-	line-height: 24px;
-	font-size: 0.55rem;
+	line-height: 0.68rem;
+	font-size: 0.6rem;
 	color: #999;
+	margin-top: 0.2rem;
+}
+.desc .share{
+	margin-top: 0.4rem;
 }
 .desc .time{
 	position: relative;
-	font-size: 0.5rem;
-	height:20px;
-	line-height: 20px;
+	font-size: 0.6rem;
 	vertical-align: text-bottom;
 	background-color: #333;
 	color: #fff;
-	padding: 0 4px;
+	padding: 4px 8px;
+	border-radius: 4px;
 }
 .desc .info{
 	font-size: 0.5rem;
 	border-top: 1px solid #dedede;
+}
+.title em,.subtitle em{
+	width: 11rem;
+}
+.title span,.subtitle span{
+	width: 4rem;
+	text-align: right;
 }
 .desc .cur{
 	color: #f00;
@@ -73,7 +84,6 @@ body{
 }
 .desc .old{
 	text-decoration:line-through;
-	margin-left: 8px;
 }
 
 .intro{
@@ -180,7 +190,7 @@ body{
 	background-color: #333;
 	color: #fff;
 	padding: 0.2rem 0.6rem;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	border-radius: 0.15rem;
 }
 

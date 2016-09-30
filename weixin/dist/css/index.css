@@ -5,6 +5,18 @@
 	position: relative;
 	overflow: hidden;
 }*/
+body{
+	background-color: #f2f2f2;
+}
+.overflow{
+	overflow: hidden;
+}
+.f-left{
+	float: left;
+}
+.f-right{
+	float: right;
+}
 .search{
 	height: 46px;
 	background-color: #eee;
@@ -55,22 +67,39 @@
 	margin-top: 20px;
 }
 .list-index{
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 	width: 16rem;
-	height: 12rem;
-	border-bottom: 1px solid #333;
+	background-color: #fff;
 }
 .list-index .title{
 	padding:0 0.5rem;
 	font-size: 0.8rem;
 	color: #333;
 }
+.list-index a{
+	display: inline-block;
+	width: 16rem;
+	height: 9rem;
+}
 .list-index img{
 	width: 16rem;
 	height: 9rem;
 }
+.c-list{
+	position: relative;
+	padding-bottom: 0.3rem;
+}
+.title .f-right{
+	color: #f00;
+}
+.title .t-left{
+	width: 11rem;
+}
+.title .t-right{
+	width: 4rem;
+}
 .info{
-	height: 2rem;
+	line-height: 0.9rem;
 	color: #999;
 }
 .info span{
@@ -80,9 +109,11 @@
 	overflow: hidden;
 }
 .info span.t-left{
+	width: 11rem;
 	padding-left: 0.5rem;
 }
 .info span.t-right{
+	width: 4rem;
 	padding-right: 0.5rem;
 	font-weight: bold;
 	color: #f00;

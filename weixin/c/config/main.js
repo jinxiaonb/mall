@@ -36,6 +36,8 @@ require.config({
 		"CSales": "controller/person/CSales",
 		"BSalesDetail": "bean/person/BSalesDetail",
 		"CSalesDetail": "controller/person/CSalesDetail",
+		"BReal": "bean/person/BReal",
+		"CReal": "controller/person/CReal",
 
 
 		"BAddress": "bean/BAddress",

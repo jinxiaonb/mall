@@ -22,11 +22,19 @@ define([], function() {
 				oldmoney = item.oldmoney,
 				img = item.img;
 
-			str +=
-				"<div class='list-index'>" +
+			// str +=
+			// 	"<div class='list-index'>" +
+			// 	"<p><a href=/weixin/views/detail.html?id=" + id + "><img src=" + img + " alt=''></a></p>" +
+			// 	"<p class='title'>" + title + "</p>" +
+			// 	"<p class='info'><span class='t-left'>" + subtitle + "</span><span class='t-right'>￥" + money + "<i>￥" + oldmoney + "</i></span></p>" +
+			// 	"</div>";
+
+			str += "<div class='list-index'>" +
 				"<p><a href=/weixin/views/detail.html?id=" + id + "><img src=" + img + " alt=''></a></p>" +
-				"<p class='title'>" + title + "</p>" +
-				"<p class='info'><span class='t-left'>" + subtitle + "</span><span class='t-right'>￥" + money + "<i>￥" + oldmoney + "</i></span></p>" +
+				"<div class='c-list'>" +
+				"<p class='title overflow'><span class='f-left t-left'>" + title + "</span><span class='f-right t-right'>￥" + money + "</span></p>" +
+				"<p class='info overflow'><span class='f-left t-left'>" + subtitle + "</span><span class='f-right t-right'><i>￥" + oldmoney + "</i></span></p>" +
+				"</div>" +
 				"</div>";
 		}
 
