@@ -31,6 +31,20 @@
 	display: inline-block;
 	width: 3.2rem;
 	height: 60px;
+	position: relative;
+}
+#fcart{
+	position: absolute;
+	background-color: #f00;
+	color: #fff;
+	right: 0;
+	top: 0;
+	width: 0.8rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	border-radius: 0.4rem;
+	margin-top: 2px;
+	margin-right: 14px;
 }
 
 #footer a:link{

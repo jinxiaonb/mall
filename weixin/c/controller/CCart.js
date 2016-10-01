@@ -123,7 +123,7 @@ define(['reqAjax', 'JDialog'], function(reqAjax, JDialog) {
 					console.log(i, _val, _price, _total);
 				}
 				console.log(_outerTotal);
-				$("#total").html("￥" + _outerTotal);
+				$("#total").html("￥" + _outerTotal.toFixed(2));
 			}
 		}
 

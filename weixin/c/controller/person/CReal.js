@@ -1,4 +1,4 @@
-define(['JDialog'], function(JDialog) {
+define(['JDialog', 'JValidate'], function(JDialog, JValidate) {
 
 
 	var initEvent = function() {
@@ -17,7 +17,17 @@ define(['JDialog'], function(JDialog) {
 					idnum: idnum,
 					alipay: alipay
 				};
-			console.log(para);
+
+			if (!JValidate.jv.isPhone(phone)) {
+				JDialog.buildDialog({
+					JMessage: "请填写合法的手机号码"
+				});
+			} else if (!JValidate.jv.isIDCard(idnum)) {
+				JDialog.buildDialog({
+					JMessage: "请填写正确的身份证号"
+				});
+			}
+
 			$.ajax({
 				type: "get",
 				url: "/weixin/c/json/sales.json",

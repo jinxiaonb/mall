@@ -77,6 +77,14 @@ define([], function() {
 				this.flag = true;
 			}
 			return this.flag;
+		},
+		isIDCard: function(text) {
+			this.flag = false;
+			var reg = /(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/;
+			if (reg.test(text)) {
+				this.flag = true;
+			}
+			return this.flag;
 		}
 	};
 

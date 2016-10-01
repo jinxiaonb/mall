@@ -77,3 +77,24 @@ body{
 	font-size: 0.6rem;
 	border-bottom: 1px solid #dedede;
 }
+.order-list p input{
+	border: 1px solid #dedede;
+	height: 22px;
+	line-height: 22px;
+	vertical-align: middle;
+	margin-top: 7px;
+}
+.btn{
+	height: 80px;
+	padding: 0 10px;
+}
+.btn a{
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	display: inline-block;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+}

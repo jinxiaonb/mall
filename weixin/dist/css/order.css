@@ -33,10 +33,10 @@ body{
 .l-order{
 	color: #666;
 	background-color: #fff;
-	top: 20px;
-	margin-bottom: 20px;
+	top: 0.6rem;
+	margin-bottom: 0.6rem;
 	position: relative;
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 }
 .order-status{
 	height: 40px;
@@ -51,22 +51,17 @@ body{
 	color: #f00;
 }
 .order-status span{
-	font-size: 0.5rem;
+	font-size: 0.6rem;
 	margin-left: 20px;
 }
 .order-goods{
-	display: -moz-box;
-	display: -o-box;
-	display: -webkit-box;
-	display: box;
 	position: relative;
 	border-bottom: 1px solid #dedede;
+	overflow: hidden;
 }
 .order-img{
 	padding: 10px;
-	-moz-box-flex:1;
-	-o-box-flex:1;
-	-webkit-box-flex: 1;
+	float: left;
 	width: 3.5rem;
 	height: 3rem;
 }
@@ -75,20 +70,36 @@ body{
 	height: 3rem;
 }
 .order-info{
-	-moz-box-flex:7;
-	-o-box-flex:7;
-	-webkit-box-flex: 7;
+	overflow: hidden;
+	float: right;
+	padding-top: 10px;
+	color: #333;
+}
+.order-info p{
+	overflow: hidden;
+	line-height: 1rem;
 }
 .order-info em{
-	padding-top: 10px;
 	width: 8rem;
-	font-size: 0.5rem;
+	font-size: 0.6rem;
 	display: inline-block;
+	float: left;
 }
 .order-info span{
-	width: 3rem;
+	width: 3.3rem;
 	display: inline-block;
 	text-align: right;
+	padding-right: 0.2rem;
+	float: right;
+	color: #666;
+	font-size: 0.6rem;
+}
+.title em{
+	font-size: 0.7rem;
+}
+.title span{
+	font-size: 0.7rem;
+	color: #333;
 }
 .l-order a:link,.l-order a:visited,.l-order a:hover,.l-order a:active{
 	color: #333;
@@ -100,34 +111,30 @@ body{
 	line-height: 60px;
 	background: #fff;
 	overflow: hidden;
-	display: -moz-box;
-	display: -o-box;
-	display: -webkit-box;
-	display: box;
 	border-bottom: 1px solid #dedede;
 }
 .total-price{
-	-moz-box-flex:3;
-	-o-box-flex:3;
-	-webkit-box-flex: 3;
+	float: left;
+	font-size: 0.7rem;
 }
 .total-price span{
 	margin-left: 0.4rem;
 }
+.total-price em{
+	color: #333;
+}
 .total-btn{
-	-moz-box-flex:1;
-	-o-box-flex:1;
-	-webkit-box-flex: 1;
+	float: right;
 }
 .total-btn a{
 	padding: 0.2rem 0.8rem;
 	font-size: 0.6rem;
 	border-radius: 0.15rem;
+	margin-right: 0.4rem;
 }
 .total-btn a.cancel{
 	color: #333;
 	border: 1px solid #333;
-	margin-right: 20px;
 }
 .total-btn a.checkout,.total-btn a.receipt,.total-btn a.vieworder{
 	background-color: #333;

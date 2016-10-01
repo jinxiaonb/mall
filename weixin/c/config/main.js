@@ -15,6 +15,8 @@ require.config({
 		"CCart": "controller/CCart",
 		"BOrder": "bean/BOrder",
 		"COrder": "controller/COrder",
+		"BOrderRefund": "bean/BOrderRefund",
+		"COrderRefund": "controller/COrderRefund",
 		"BUser": "bean/BUser",
 		"CUser": "controller/CUser",
 		"BLogin": "bean/BLogin",

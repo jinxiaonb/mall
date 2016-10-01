@@ -1,4 +1,4 @@
-define(['reqAjax'], function(reqAjax) {
+define(['reqAjax', 'JValidate', "JDialog"], function(reqAjax, JValidate, JDialog) {
 
 	var initData = function(data, callback) {
 		reqAjax.initAjax(data, callback);
@@ -47,17 +47,45 @@ define(['reqAjax'], function(reqAjax) {
 					city: city,
 					cityVal: cityVal
 				};
-
-			console.log(para);
-			// $.ajax({
-			// 	type: "post",
-			// 	url: "xxx",
-			// 	data: para,
-			// 	dataType: "json",
-			// 	success: function(data) {
-			// 		console.log(data);
-			// 	}
-			// });
+			if (name == "") {
+				JDialog.buildDialog({
+					JMessage: "请填写收件人姓名"
+				});
+				return false;
+			} else if (!JValidate.jv.isPhone(phone)) {
+				JDialog.buildDialog({
+					JMessage: "请填写合法的手机号码"
+				});
+				return false;
+			} else if (detail == "") {
+				JDialog.buildDialog({
+					JMessage: "请填写详细的收货地址"
+				});
+				return false;
+			}
+			//console.log(para);
+			$.ajax({
+				type: "get",
+				url: "/weixin/c/json/addressAdd.json",
+				data: para,
+				dataType: "json",
+				success: function(data) {
+					console.log(data);
+					if (data.result) {
+						console.log(_id);
+						JDialog.buildDialog({
+							JMessage: "地址保存成功",
+							JCallback: function() {
+								if (_id != "0") {
+									location.href = "/weixin/views/person/address.html?orderids=" + orderids;
+								} else {
+									location.href = "/weixin/views/person/address.html";
+								}
+							}
+						});
+					}
+				}
+			});
 		});
 	}
 

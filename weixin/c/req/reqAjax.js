@@ -5,6 +5,7 @@ define([], function() {
 	}
 
 	function ajaxCommont(para, callback) {
+		//console.log(para);
 		$.ajax({
 			type: "get",
 			url: para.url,

@@ -29,7 +29,8 @@ define([], function() {
 					"<div class='cart-box overflow'>" +
 					"<div class='cart-img f-left'><img src=" + img + " alt=''></div>" +
 					"<div class='cart-info f-right'>" +
-					"<h5>" + title + "<span>(规格：" + spec1 + "、" + spec2 + ")</span></h5>" +
+					"<h5>" + title + "</h5>" +
+					"<p class='specs'><span>(规格：" + spec1 + "、" + spec2 + ")</span></p>" +
 					"<div class='cart-ope'>" +
 					"<p><span class='price'>￥" + price + "</span></p>" +
 					"<p class='num-ope'><i class='iconfont minus'>&#xe608;</i><input type='text' data-stock=" + stock + " data-price=" + price + " value=" + num + " class='num'><i class='iconfont add'>&#xe607;</i></p>" +

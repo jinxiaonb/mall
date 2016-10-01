@@ -1,7 +1,7 @@
 define(['slidefocus'], function(slidefocus) {
 	var initSlide = function(data) {
 		//console.log(data);
-		slideShow(data.slide);
+		//slideShow(data.slide);
 	}
 
 	function slideShow(data) {

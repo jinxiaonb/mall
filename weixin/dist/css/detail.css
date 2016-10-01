@@ -51,7 +51,7 @@ body{
 }
 .desc .subtitle{
 	line-height: 0.68rem;
-	font-size: 0.6rem;
+	font-size: 0.7rem;
 	color: #999;
 	margin-top: 0.2rem;
 }
@@ -61,11 +61,12 @@ body{
 .desc .time{
 	position: relative;
 	font-size: 0.6rem;
+	text-decoration: underline;
 	vertical-align: text-bottom;
+	color: #333;/*
 	background-color: #333;
-	color: #fff;
 	padding: 4px 8px;
-	border-radius: 4px;
+	border-radius: 4px;*/
 }
 .desc .info{
 	font-size: 0.5rem;
